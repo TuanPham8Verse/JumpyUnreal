@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Projects\\Git\\Unreal\\JumpyUnreal\\JumpyCPP\\Source\\JumpyCPP\\JumpyCPP.Build.cs",
+		"D:\\Projects\\Git\\Unreal\\JumpyUnreal\\JumpyCPP\\Source\\JumpyCPP.Target.cs",
+		"D:\\Projects\\Git\\Unreal\\JumpyUnreal\\JumpyCPP\\Source\\JumpyCPPEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

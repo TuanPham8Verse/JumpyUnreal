@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-JumpyCPP.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\JumpyCPPEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\JumpyCPP.cpp.obj"
+"D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\Default.rc2.res"
+/OUT:"D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\UnrealEditor-JumpyCPP.lib"

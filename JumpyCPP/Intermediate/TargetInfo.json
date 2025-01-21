@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "JumpyCPP",
+			"Path": "..\\Source\\JumpyCPP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JumpyCPPEditor",
+			"Path": "..\\Source\\JumpyCPPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
