@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "EnhancedInputSubsystems.h"
 #include "JumpyCharacter.h"
 
 // Sets default values
@@ -13,27 +13,48 @@ AJumpyCharacter::AJumpyCharacter()
 	SpringArm->SetupAttachment(GetRootComponent());
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("MyCamera"));
-	Camera->SetupAttachment(SpringArm);
+	Camera->AttachToComponent(SpringArm, FAttachmentTransformRules::KeepRelativeTransform);
+
+	SpringArm->TargetArmLength = 500;
+	SpringArm->SocketOffset = FVector(0, 0, 80);
+	SpringArm->bUsePawnControlRotation = true;
+
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationRoll = false;
+	bUseControllerRotationYaw = false;
+
+	GetCharacterMovement()->MaxWalkSpeed = 500;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
 }
 
 // Called when the game starts or when spawned
 void AJumpyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	APlayerController* JumpyController = Cast<APlayerController>(GetController());
+
+	if (JumpyController) 
+	{
+		UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(JumpyController->GetLocalPlayer());
+
+		if (Subsystem) 
+		{
+			Subsystem->ClearAllMappings();
+			Subsystem->AddMappingContext(IMCJumpy, 0);
+		}
+	}
 }
 
 // Called every frame
 void AJumpyCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
 void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 

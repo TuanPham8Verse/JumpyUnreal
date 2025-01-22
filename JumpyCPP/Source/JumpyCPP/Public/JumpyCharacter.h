@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "InputMappingContext.h"
 #include "JumpyCharacter.generated.h"
 
 UCLASS()
@@ -25,6 +27,9 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere)
+	UInputMappingContext* IMCJumpy;
 
 private:
 	UPROPERTY(VisibleAnywhere)
