@@ -2964,6 +2964,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "EpicGames.Build": "1.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "UE5Rules": "1.0.0",
           "UnrealBuildTool": "1.0.0"
         },
@@ -2979,6 +2980,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "EpicGames.Build": "1.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "UnrealBuildTool": "1.0.0"
         },
         "compile": {
@@ -3000,6 +3002,7 @@
           "EpicGames.Serialization": "1.0.0",
           "EpicGames.UBA": "1.0.0",
           "EpicGames.UHT": "1.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.Extensions.Logging.Console": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
           "System.Management": "4.7.0",
@@ -8534,6 +8537,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "EpicGames.Build >= 1.0.0",
+      "Microsoft.Extensions.Caching.Memory >= 6.0.1",
       "UE5ProgramRules >= 1.0.0",
       "UE5Rules >= 1.0.0",
       "UnrealBuildTool >= 1.0.0"
@@ -8601,6 +8605,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -8620,5 +8630,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Extensions.Caching.Memory' 6.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

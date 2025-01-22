@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\jumpycpp.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\jumpycppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpycpp\\definitions.jumpycpp.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

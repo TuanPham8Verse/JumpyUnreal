@@ -11,6 +11,7 @@
     <None Include="..\..\Source\JumpyCPPEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\JumpyCPP\JumpyCPP.h">
       <Filter>Source\JumpyCPP</Filter>
+    </ClInclude>
+    <Filter Include="Source\JumpyCPP\Private">
+      <UniqueIdentifier>{59A2925A-C8EC-3493-BBB5-3502248D8CF4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\JumpyCPP\Private\JumpyCharacter.cpp">
+      <Filter>Source\JumpyCPP\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\JumpyCPP\Public">
+      <UniqueIdentifier>{A148DD59-164C-3F6C-8304-3BE97A7903F6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\JumpyCPP\Public\JumpyCharacter.h">
+      <Filter>Source\JumpyCPP\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
