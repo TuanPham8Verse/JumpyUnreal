@@ -11,6 +11,9 @@ AJumpyCharacter::AJumpyCharacter()
 
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("MySpringArm"));
 	SpringArm->SetupAttachment(GetRootComponent());
+
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("MyCamera"));
+	Camera->SetupAttachment(SpringArm);
 }
 
 // Called when the game starts or when spawned

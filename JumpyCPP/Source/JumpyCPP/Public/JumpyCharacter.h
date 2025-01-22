@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
 #include "JumpyCharacter.generated.h"
 
 UCLASS()
@@ -29,5 +30,6 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArm;
 
-
+	UPROPERTY(VisibleAnywhere)
+	UCameraComponent* Camera;
 };
