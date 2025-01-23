@@ -31,6 +31,12 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "mInput")
 	UInputMappingContext* IMCJumpy;
 
+	UPROPERTY(EditAnywhere, Category = "mInput")
+	UInputAction* IAMoveAction;
+
+	UPROPERTY(EditAnywhere, Category = "mInput")
+	UInputAction* IALookAction;
+
 private:
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArm;
@@ -40,4 +46,7 @@ private:
 
 	float AddTwoNumber(float A, float B);
 
+	void Move(const FInputActionValue& Value);
+
+	void Look(const FInputActionValue& Value);
 };

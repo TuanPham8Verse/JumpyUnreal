@@ -2,6 +2,7 @@
 
 #include "EnhancedInputSubsystems.h"
 #include "JumpyCharacter.h"
+#include "EnhancedInputComponent.h"
 
 // Sets default values
 AJumpyCharacter::AJumpyCharacter()
@@ -65,6 +66,32 @@ float AJumpyCharacter::AddTwoNumber(float A, float B)
 	return A + B;
 }
 
+void AJumpyCharacter::Move(const FInputActionValue& Value)
+{
+	FVector2D RCVValue = Value.Get<FVector2D>();
+
+	UE_LOG(LogTemp, Warning, TEXT("InputActionValue: %s"), *RCVValue.ToString());
+
+	FRotator ControlRotation = GetControlRotation();
+	//FVector ForwarVector = FRotationMatrix(ControlRotation).GetUnitAxis(EAxis::X);
+
+	FVector ForwarVector = FRotationMatrix(FRotator(0, ControlRotation.Yaw, 0)).GetUnitAxis(EAxis::X);
+	FVector RightVector = FRotationMatrix(FRotator(0, ControlRotation.Yaw, 0)).GetUnitAxis(EAxis::Y);
+
+	AddMovementInput(ForwarVector, RCVValue.X);
+	AddMovementInput(RightVector, RCVValue.Y);
+}
+
+void AJumpyCharacter::Look(const FInputActionValue& Value)
+{
+	FVector2D RCVValue = Value.Get<FVector2D>();
+
+	UE_LOG(LogTemp, Warning, TEXT("LookActionValue: %s"), *RCVValue.ToString());
+
+	AddControllerYawInput(RCVValue.X);
+	AddControllerPitchInput(RCVValue.Y);
+}
+
 // Called every frame
 void AJumpyCharacter::Tick(float DeltaTime)
 {
@@ -75,5 +102,16 @@ void AJumpyCharacter::Tick(float DeltaTime)
 void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent);
+
+	if (EnhancedInputComponent) 
+	{
+		EnhancedInputComponent->BindAction(IAMoveAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Move);
+
+		EnhancedInputComponent->BindAction(IALookAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Look);
+	}
+
+
 }
 
