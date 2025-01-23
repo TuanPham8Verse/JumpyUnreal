@@ -28,7 +28,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "mInput")
 	UInputMappingContext* IMCJumpy;
 
 private:
@@ -37,4 +37,7 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	UCameraComponent* Camera;
+
+	float AddTwoNumber(float A, float B);
+
 };

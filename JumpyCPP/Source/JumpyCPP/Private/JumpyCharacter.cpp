@@ -32,6 +32,20 @@ void AJumpyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UE_LOG(LogTemp, Warning, TEXT("TuanDepTrai"));
+
+	float floatValue = 5.4f;
+	int intValue = 3;
+	FVector vectorValue = FVector(3, 4, 5);
+
+	UE_LOG(LogTemp, Warning, TEXT("The float value is: %f"), floatValue);
+	UE_LOG(LogTemp, Warning, TEXT("The float value is: %f"), floatValue);
+	UE_LOG(LogTemp, Warning, TEXT("The interger value is: %d"), intValue);
+	UE_LOG(LogTemp, Warning, TEXT("The vector value is: %s"), *vectorValue.ToString());
+
+	float sum = AddTwoNumber(floatValue, intValue);
+	UE_LOG(LogTemp, Warning, TEXT("Sum %f + %d is: %f"), floatValue, intValue, sum);
+
 	APlayerController* JumpyController = Cast<APlayerController>(GetController());
 
 	if (JumpyController) 
@@ -44,6 +58,11 @@ void AJumpyCharacter::BeginPlay()
 			Subsystem->AddMappingContext(IMCJumpy, 0);
 		}
 	}
+}
+
+float AJumpyCharacter::AddTwoNumber(float A, float B)
+{
+	return A + B;
 }
 
 // Called every frame
