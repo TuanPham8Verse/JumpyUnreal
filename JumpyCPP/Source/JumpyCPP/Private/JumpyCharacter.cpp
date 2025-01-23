@@ -92,6 +92,16 @@ void AJumpyCharacter::Look(const FInputActionValue& Value)
 	AddControllerPitchInput(RCVValue.Y);
 }
 
+void AJumpyCharacter::Jumping(const FInputActionValue& Value)
+{
+	bool RCVValue = Value.Get<bool>();
+
+	if (RCVValue)
+	{
+		Jump();
+	}
+}
+
 // Called every frame
 void AJumpyCharacter::Tick(float DeltaTime)
 {
@@ -110,6 +120,8 @@ void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 		EnhancedInputComponent->BindAction(IAMoveAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Move);
 
 		EnhancedInputComponent->BindAction(IALookAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Look);
+
+		EnhancedInputComponent->BindAction(IAJumpAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Jumping);
 	}
 
 
