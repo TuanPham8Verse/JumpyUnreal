@@ -3,6 +3,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "JumpyCharacter.h"
 #include "EnhancedInputComponent.h"
+#include "Item.h"
 
 // Sets default values
 AJumpyCharacter::AJumpyCharacter()
@@ -33,16 +34,16 @@ void AJumpyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("TuanDepTrai"));
+	//UE_LOG(LogTemp, Warning, TEXT("TuanDepTrai"));
 
 	float floatValue = 5.4f;
 	int intValue = 3;
 	FVector vectorValue = FVector(3, 4, 5);
 
-	UE_LOG(LogTemp, Warning, TEXT("The float value is: %f"), floatValue);
-	UE_LOG(LogTemp, Warning, TEXT("The float value is: %f"), floatValue);
-	UE_LOG(LogTemp, Warning, TEXT("The interger value is: %d"), intValue);
-	UE_LOG(LogTemp, Warning, TEXT("The vector value is: %s"), *vectorValue.ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("The float value is: %f"), floatValue);
+	//UE_LOG(LogTemp, Warning, TEXT("The float value is: %f"), floatValue);
+	//UE_LOG(LogTemp, Warning, TEXT("The interger value is: %d"), intValue);
+	//UE_LOG(LogTemp, Warning, TEXT("The vector value is: %s"), *vectorValue.ToString());
 
 	float sum = AddTwoNumber(floatValue, intValue);
 	UE_LOG(LogTemp, Warning, TEXT("Sum %f + %d is: %f"), floatValue, intValue, sum);
@@ -59,6 +60,9 @@ void AJumpyCharacter::BeginPlay()
 			Subsystem->AddMappingContext(IMCJumpy, 0);
 		}
 	}
+
+
+	SpawnItem();
 }
 
 float AJumpyCharacter::AddTwoNumber(float A, float B)
@@ -70,7 +74,7 @@ void AJumpyCharacter::Move(const FInputActionValue& Value)
 {
 	FVector2D RCVValue = Value.Get<FVector2D>();
 
-	UE_LOG(LogTemp, Warning, TEXT("InputActionValue: %s"), *RCVValue.ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("InputActionValue: %s"), *RCVValue.ToString());
 
 	FRotator ControlRotation = GetControlRotation();
 	//FVector ForwarVector = FRotationMatrix(ControlRotation).GetUnitAxis(EAxis::X);
@@ -86,7 +90,7 @@ void AJumpyCharacter::Look(const FInputActionValue& Value)
 {
 	FVector2D RCVValue = Value.Get<FVector2D>();
 
-	UE_LOG(LogTemp, Warning, TEXT("LookActionValue: %s"), *RCVValue.ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("LookActionValue: %s"), *RCVValue.ToString());
 
 	AddControllerYawInput(RCVValue.X);
 	AddControllerPitchInput(RCVValue.Y);
@@ -123,7 +127,23 @@ void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 		EnhancedInputComponent->BindAction(IAJumpAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Jumping);
 	}
+}
 
+// Function to spawn item
+void AJumpyCharacter::SpawnItem()
+{
+	if (ItemClass)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("SpawnItem"));
 
+		FVector spawnLocation = FVector(-200.0, 0.0, 77.150006);
+
+		// Get player location and rotation
+		//FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 200.0f;
+		FRotator SpawnRotation = GetActorRotation();
+
+		// Spawn the item
+		GetWorld()->SpawnActor<AItem>(ItemClass, spawnLocation, SpawnRotation);
+	}
 }
 

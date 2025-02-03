@@ -47,6 +47,10 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	UCameraComponent* Camera;
 
+	// Class of the item to spawn
+	UPROPERTY(EditAnywhere, Category = "Item")
+	TSubclassOf<class AItem> ItemClass;
+
 	float AddTwoNumber(float A, float B);
 
 	void Move(const FInputActionValue& Value);
@@ -54,4 +58,6 @@ private:
 	void Look(const FInputActionValue& Value);
 
 	void Jumping(const FInputActionValue& Value);
+
+	void SpawnItem();
 };
