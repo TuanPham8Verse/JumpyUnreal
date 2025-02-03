@@ -18,7 +18,4 @@
   <Compile Include="..\..\..\..\Source\JumpyCPPEditor.Target.cs"><Link>Source\JumpyCPPEditor.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\JumpyCPP\JumpyCPP.Build.cs"><Link>Source\JumpyCPP\JumpyCPP.Build.cs</Link></Compile>
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
-  </ItemGroup>
 </Project>

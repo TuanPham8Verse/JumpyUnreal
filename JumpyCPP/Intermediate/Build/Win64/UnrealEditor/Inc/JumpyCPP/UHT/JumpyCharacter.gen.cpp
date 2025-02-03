@@ -39,6 +39,12 @@ struct Z_Construct_UClass_AJumpyCharacter_Statics
 		{ "IncludePath", "JumpyCharacter.h" },
 		{ "ModuleRelativePath", "Public/JumpyCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Coin_MetaData[] = {
+		{ "ModuleRelativePath", "Public/JumpyCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IndexCoin_MetaData[] = {
+		{ "ModuleRelativePath", "Public/JumpyCharacter.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IMCJumpy_MetaData[] = {
 		{ "Category", "mInput" },
 		{ "ModuleRelativePath", "Public/JumpyCharacter.h" },
@@ -76,6 +82,8 @@ struct Z_Construct_UClass_AJumpyCharacter_Statics
 #endif
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FIntPropertyParams NewProp_Coin;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_IndexCoin;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_IMCJumpy;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_IAMoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_IALookAction;
@@ -90,6 +98,8 @@ struct Z_Construct_UClass_AJumpyCharacter_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_Coin = { "Coin", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AJumpyCharacter, Coin), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Coin_MetaData), NewProp_Coin_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IndexCoin = { "IndexCoin", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AJumpyCharacter, IndexCoin), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IndexCoin_MetaData), NewProp_IndexCoin_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IMCJumpy = { "IMCJumpy", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AJumpyCharacter, IMCJumpy), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IMCJumpy_MetaData), NewProp_IMCJumpy_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IAMoveAction = { "IAMoveAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AJumpyCharacter, IAMoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IAMoveAction_MetaData), NewProp_IAMoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IALookAction = { "IALookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AJumpyCharacter, IALookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_IALookAction_MetaData), NewProp_IALookAction_MetaData) };
@@ -98,6 +108,8 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AJumpyCharacte
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AJumpyCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Camera_MetaData), NewProp_Camera_MetaData) };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_ItemClass = { "ItemClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AJumpyCharacter, ItemClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemClass_MetaData), NewProp_ItemClass_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AJumpyCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_Coin,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IndexCoin,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IMCJumpy,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IAMoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AJumpyCharacter_Statics::NewProp_IALookAction,
@@ -147,10 +159,10 @@ AJumpyCharacter::~AJumpyCharacter() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AJumpyCharacter, AJumpyCharacter::StaticClass, TEXT("AJumpyCharacter"), &Z_Registration_Info_UClass_AJumpyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AJumpyCharacter), 1913925390U) },
+		{ Z_Construct_UClass_AJumpyCharacter, AJumpyCharacter::StaticClass, TEXT("AJumpyCharacter"), &Z_Registration_Info_UClass_AJumpyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AJumpyCharacter), 6630681U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_1197272485(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_610081900(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

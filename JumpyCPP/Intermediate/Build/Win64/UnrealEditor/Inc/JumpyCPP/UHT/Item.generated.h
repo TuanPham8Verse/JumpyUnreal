@@ -9,10 +9,17 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UPrimitiveComponent;
+struct FHitResult;
 #ifdef JUMPYCPP_Item_generated_h
 #error "Item.generated.h already included, missing '#pragma once' in Item.h"
 #endif
 #define JUMPYCPP_Item_generated_h
+
+#define FID_JumpyCPP_Source_JumpyCPP_Public_Item_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnPlayerEnter);
+
 
 #define FID_JumpyCPP_Source_JumpyCPP_Public_Item_h_14_INCLASS_NO_PURE_DECLS \
 private: \
@@ -39,6 +46,7 @@ public: \
 #define FID_JumpyCPP_Source_JumpyCPP_Public_Item_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_JumpyCPP_Source_JumpyCPP_Public_Item_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_JumpyCPP_Source_JumpyCPP_Public_Item_h_14_INCLASS_NO_PURE_DECLS \
 	FID_JumpyCPP_Source_JumpyCPP_Public_Item_h_14_ENHANCED_CONSTRUCTORS \
 private: \

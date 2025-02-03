@@ -63,7 +63,7 @@ void AJumpyCharacter::BeginPlay()
 
 	for (int i = 0; i < 100; i++) 
 	{
-		SpawnItem(i * 100);
+		SpawnItem(i * 150);
 	}
 }
 
@@ -136,8 +136,6 @@ void AJumpyCharacter::SpawnItem(float y)
 {
 	if (ItemClass)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("SpawnItem"));
-
 		FVector spawnLocation = FVector(-200.0, y, 77.150006);
 
 		// Get player location and rotation
@@ -145,7 +143,9 @@ void AJumpyCharacter::SpawnItem(float y)
 		FRotator SpawnRotation = GetActorRotation();
 
 		// Spawn the item
-		GetWorld()->SpawnActor<AItem>(ItemClass, spawnLocation, SpawnRotation);
+		AItem* SpawnedItem = GetWorld()->SpawnActor<AItem>(ItemClass, spawnLocation, SpawnRotation);
+		IndexCoin++;
+		SpawnedItem->ItemCoin = IndexCoin;
 	}
 }
 
