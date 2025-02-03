@@ -265,10 +265,14 @@
     <ClCompile Include="..\..\Source\JumpyCPP\Private\Item.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\JumpyCPP\Private\JumpyAnimationBlueprint.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\JumpyCPP\Private\JumpyCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\JumpyCPP\Public\Item.h"/>
+    <ClInclude Include="..\..\Source\JumpyCPP\Public\JumpyAnimationBlueprint.h"/>
     <ClInclude Include="..\..\Source\JumpyCPP\Public\JumpyCharacter.h"/>
   </ItemGroup>
   <PropertyGroup>
