@@ -27,8 +27,6 @@ void AItem::BeginPlay()
 
 	Orb->SetWorldRotation(FRotator(random, 0, 0));
 	UE_LOG(LogTemp, Warning, TEXT("%d"), random);
-
-    //SpawnMyActor(this);
 }
 
 // Called every frame

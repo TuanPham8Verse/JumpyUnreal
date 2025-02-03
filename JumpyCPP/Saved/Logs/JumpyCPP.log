@@ -10340,3 +10340,702 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.02.03-03.10.28:741][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.02.03-03.10.28:761][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
 [2025.02.03-03.10.28:835][965]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2025.02.03-03.12.22:559][755]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-03.12.22:578][755]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.03-03.12.22:578][755]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.03-03.12.22:582][755]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 4.424 ms (total: 124.794 ms)
+[2025.02.03-03.12.22:583][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-03.12.22:583][755]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.12.22:592][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008648s)
+[2025.02.03-03.12.22:592][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.008696s)
+[2025.02.03-03.12.22:614][755]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2025.02.03-03.12.22:625][755]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.03-03.12.22:626][755]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.03-03.12.22:626][755]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.03-03.12.22:626][755]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.03-03.12.22:626][755]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.03-03.12.22:632][755]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.03-03.12.22:632][755]LogWorldPartition: Display: WorldPartition initialize took 5.853 ms (total: 842.734 ms)
+[2025.02.03-03.12.22:632][755]LogPlayLevel: PIE: World Init took: (0.007359s)
+[2025.02.03-03.12.22:643][755]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2025.02.03-03.12.22:643][755]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-03.12.22:643][755]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-03.12.22:643][755]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-03.12.22:643][755]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-03.12.22:643][755]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-03.12.22:643][755]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-03.12.22:643][755]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-03.12.22:643][755]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-03.12.22:643][755]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-03.12.22:643][755]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-03.12.22:643][755]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-03.12.22:645][755]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-03.12.22:655][755]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.02.03-03.12.22:656][755]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-03.12.22:656][755]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-03.12.22:656][755]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-03.12.22:657][755]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2025.02.03-03.12.22:657][755]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2025.02.03-03.12.22:659][755]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2025.02.03-03.12.22:659][755]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2025.02.03-03.12.22:659][755]LogInit: FAudioDevice initialized with ID 31.
+[2025.02.03-03.12.22:659][755]LogAudio: Display: Audio Device (ID: 31) registered with world 'DefaultMap'.
+[2025.02.03-03.12.22:659][755]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2025.02.03-03.12.22:663][755]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.03-03.12.22:665][755]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.03-10.12.22
+[2025.02.03-03.12.22:665][755]LogWorld: Bringing up level for play took: 0.001868
+[2025.02.03-03.12.22:667][755]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2025.02.03-03.12.22:672][755]LogStreaming: Display: FlushAsyncLoading(): 45 QueuedPackages, 0 AsyncPackages
+[2025.02.03-03.12.22:778][755]LogWorldPartition: Warning: Failed to load actor package /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/1/6N/IXDYKP3MWVGILS7NPU9LVM
+[2025.02.03-03.12.22:779][755]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7
+[2025.02.03-03.12.22:824][755]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.03-03.12.22:824][755]LogTemp: Warning: SpawnItem
+[2025.02.03-03.12.22:824][755]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.12.22:824][755]LogTemp: Warning: 264
+[2025.02.03-03.12.22:836][755]PIE: Server logged in
+[2025.02.03-03.12.22:837][755]PIE: Play in editor total start time 0.265 seconds.
+[2025.02.03-03.12.25:307][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.12.25:308][929]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.12.25:321][929]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-03.12.25:321][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.12.25:322][929]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.03-03.12.25:322][929]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.03-03.12.25:322][929]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.03-03.12.25:322][929]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.03-03.12.25:327][929]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-03.12.25:336][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.12.25:367][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.12.25:368][929]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2025.02.03-03.12.25:368][929]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2025.02.03-03.12.25:370][929]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2025.02.03-03.12.25:387][929]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.02.03-03.12.25:483][930]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2025.02.03-03.12.35:901][ 11]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4755.508301
+[2025.02.03-03.12.36:206][ 31]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-03.12.36:206][ 31]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4755.800293, Update Interval: 306.996674
+[2025.02.03-03.12.39:557][275]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.03-03.13.02:386][ 23]LogLiveCoding: Display:    Creating library D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_10.lib and object D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_10.exp
+[2025.02.03-03.13.02:616][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.02.03-03.13.02:914][ 30]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.02.03-03.13.02:914][ 30]LogLiveCoding: Display: Live coding succeeded
+[2025.02.03-03.13.07:598][241]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-03.13.07:612][241]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.03-03.13.07:612][241]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.03-03.13.07:618][241]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 6.337 ms (total: 131.132 ms)
+[2025.02.03-03.13.07:620][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-03.13.07:620][241]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.13.07:628][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007875s)
+[2025.02.03-03.13.07:628][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.007952s)
+[2025.02.03-03.13.07:706][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.02.03-03.13.07:712][241]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.03-03.13.07:713][241]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.03-03.13.07:713][241]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.03-03.13.07:713][241]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.03-03.13.07:713][241]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.03-03.13.07:719][241]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.03-03.13.07:719][241]LogWorldPartition: Display: WorldPartition initialize took 5.826 ms (total: 848.560 ms)
+[2025.02.03-03.13.07:719][241]LogPlayLevel: PIE: World Init took: (0.007710s)
+[2025.02.03-03.13.07:730][241]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2025.02.03-03.13.07:730][241]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-03.13.07:730][241]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-03.13.07:730][241]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-03.13.07:730][241]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-03.13.07:730][241]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-03.13.07:730][241]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-03.13.07:730][241]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-03.13.07:730][241]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-03.13.07:730][241]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-03.13.07:730][241]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-03.13.07:730][241]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-03.13.07:731][241]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-03.13.07:742][241]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.02.03-03.13.07:742][241]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-03.13.07:742][241]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-03.13.07:742][241]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-03.13.07:743][241]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2025.02.03-03.13.07:743][241]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2025.02.03-03.13.07:745][241]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2025.02.03-03.13.07:745][241]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2025.02.03-03.13.07:745][241]LogInit: FAudioDevice initialized with ID 32.
+[2025.02.03-03.13.07:745][241]LogAudio: Display: Audio Device (ID: 32) registered with world 'DefaultMap'.
+[2025.02.03-03.13.07:745][241]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2025.02.03-03.13.07:748][241]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.03-03.13.07:751][241]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.03-10.13.07
+[2025.02.03-03.13.07:751][241]LogWorld: Bringing up level for play took: 0.002147
+[2025.02.03-03.13.07:753][241]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.02.03-03.13.07:757][241]LogStreaming: Display: FlushAsyncLoading(): 45 QueuedPackages, 0 AsyncPackages
+[2025.02.03-03.13.07:860][241]LogWorldPartition: Warning: Failed to load actor package /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/1/6N/IXDYKP3MWVGILS7NPU9LVM
+[2025.02.03-03.13.07:860][241]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7
+[2025.02.03-03.13.07:913][241]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.03-03.13.07:913][241]LogTemp: Warning: SpawnItem
+[2025.02.03-03.13.07:913][241]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.13.07:914][241]LogTemp: Warning: 226
+[2025.02.03-03.13.07:914][241]LogTemp: Warning: SpawnItem
+[2025.02.03-03.13.07:914][241]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.13.07:914][241]LogTemp: Warning: 124
+[2025.02.03-03.13.07:915][241]LogTemp: Warning: SpawnItem
+[2025.02.03-03.13.07:915][241]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.13.07:915][241]LogTemp: Warning: 214
+[2025.02.03-03.13.07:928][241]PIE: Server logged in
+[2025.02.03-03.13.07:929][241]PIE: Play in editor total start time 0.319 seconds.
+[2025.02.03-03.13.17:737][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.13.17:737][963]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.13.17:745][963]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-03.13.17:745][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.13.17:745][963]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.03-03.13.17:745][963]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.03-03.13.17:745][963]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.03-03.13.17:745][963]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.03-03.13.17:748][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-03.13.17:754][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.13.17:779][963]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.03-03.13.17:783][963]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2025.02.03-03.13.17:783][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2025.02.03-03.13.17:785][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2025.02.03-03.13.17:788][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.13.17:807][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.02.03-03.13.17:887][964]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.02.03-03.13.31:923][160]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-03.13.31:939][160]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.03-03.13.31:940][160]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.03-03.13.31:945][160]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 5.407 ms (total: 136.539 ms)
+[2025.02.03-03.13.31:946][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-03.13.31:946][160]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.13.31:960][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014523s)
+[2025.02.03-03.13.31:960][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.014558s)
+[2025.02.03-03.13.31:973][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.02.03-03.13.31:980][160]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.03-03.13.31:981][160]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.03-03.13.31:981][160]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.03-03.13.31:981][160]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.03-03.13.31:981][160]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.03-03.13.31:986][160]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.03-03.13.31:986][160]LogWorldPartition: Display: WorldPartition initialize took 5.140 ms (total: 853.701 ms)
+[2025.02.03-03.13.31:986][160]LogPlayLevel: PIE: World Init took: (0.006245s)
+[2025.02.03-03.13.31:996][160]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2025.02.03-03.13.31:996][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-03.13.31:996][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-03.13.31:996][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-03.13.31:996][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-03.13.31:996][160]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-03.13.31:996][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-03.13.31:996][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-03.13.31:996][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-03.13.31:996][160]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-03.13.31:996][160]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-03.13.31:996][160]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-03.13.31:998][160]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-03.13.32:005][160]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.02.03-03.13.32:005][160]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-03.13.32:005][160]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-03.13.32:005][160]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-03.13.32:006][160]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2025.02.03-03.13.32:006][160]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2025.02.03-03.13.32:007][160]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2025.02.03-03.13.32:007][160]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2025.02.03-03.13.32:007][160]LogInit: FAudioDevice initialized with ID 33.
+[2025.02.03-03.13.32:007][160]LogAudio: Display: Audio Device (ID: 33) registered with world 'DefaultMap'.
+[2025.02.03-03.13.32:007][160]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2025.02.03-03.13.32:009][160]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.03-03.13.32:011][160]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.03-10.13.32
+[2025.02.03-03.13.32:011][160]LogWorld: Bringing up level for play took: 0.001125
+[2025.02.03-03.13.32:013][160]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2025.02.03-03.13.32:017][160]LogStreaming: Display: FlushAsyncLoading(): 45 QueuedPackages, 0 AsyncPackages
+[2025.02.03-03.13.32:114][160]LogWorldPartition: Warning: Failed to load actor package /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/1/6N/IXDYKP3MWVGILS7NPU9LVM
+[2025.02.03-03.13.32:114][160]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7
+[2025.02.03-03.13.32:156][160]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.03-03.13.32:156][160]LogTemp: Warning: SpawnItem
+[2025.02.03-03.13.32:156][160]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.13.32:156][160]LogTemp: Warning: 101
+[2025.02.03-03.13.32:156][160]LogTemp: Warning: SpawnItem
+[2025.02.03-03.13.32:156][160]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.13.32:156][160]LogTemp: Warning: 114
+[2025.02.03-03.13.32:157][160]LogTemp: Warning: SpawnItem
+[2025.02.03-03.13.32:157][160]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.13.32:157][160]LogTemp: Warning: 348
+[2025.02.03-03.13.32:168][160]PIE: Server logged in
+[2025.02.03-03.13.32:169][160]PIE: Play in editor total start time 0.236 seconds.
+[2025.02.03-03.14.02:728][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.14.02:728][360]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.14.02:735][360]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-03.14.02:736][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.14.02:736][360]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.03-03.14.02:736][360]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.03-03.14.02:736][360]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.03-03.14.02:736][360]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.03-03.14.02:738][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-03.14.02:745][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.14.02:765][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.14.02:765][360]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2025.02.03-03.14.02:765][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.02.03-03.14.02:766][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.02.03-03.14.02:777][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.02.03-03.14.02:845][361]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2025.02.03-03.14.50:653][614]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.03-03.15.02:362][496]LogLiveCoding: Display:    Creating library D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_11.lib and object D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_11.exp
+[2025.02.03-03.15.02:643][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.03-03.15.02:927][501]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2025.02.03-03.15.02:927][501]LogLiveCoding: Display: Live coding succeeded
+[2025.02.03-03.15.08:306][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.02.03-03.15.08:916][908]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-03.15.08:928][908]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.03-03.15.08:928][908]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.03-03.15.08:932][908]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 3.689 ms (total: 140.229 ms)
+[2025.02.03-03.15.08:933][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-03.15.08:933][908]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.15.08:939][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006080s)
+[2025.02.03-03.15.08:939][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006106s)
+[2025.02.03-03.15.08:972][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.02.03-03.15.08:980][908]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.03-03.15.08:981][908]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.03-03.15.08:981][908]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.03-03.15.08:981][908]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.03-03.15.08:981][908]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.03-03.15.08:986][908]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.03-03.15.08:986][908]LogWorldPartition: Display: WorldPartition initialize took 5.270 ms (total: 858.972 ms)
+[2025.02.03-03.15.08:986][908]LogPlayLevel: PIE: World Init took: (0.006426s)
+[2025.02.03-03.15.08:995][908]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2025.02.03-03.15.08:995][908]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-03.15.08:995][908]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-03.15.08:995][908]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-03.15.08:995][908]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-03.15.08:995][908]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-03.15.08:995][908]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-03.15.08:995][908]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-03.15.08:995][908]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-03.15.08:995][908]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-03.15.08:995][908]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-03.15.08:995][908]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-03.15.08:997][908]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-03.15.09:005][908]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.02.03-03.15.09:005][908]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-03.15.09:005][908]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-03.15.09:005][908]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-03.15.09:006][908]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2025.02.03-03.15.09:006][908]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2025.02.03-03.15.09:007][908]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2025.02.03-03.15.09:007][908]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2025.02.03-03.15.09:007][908]LogInit: FAudioDevice initialized with ID 34.
+[2025.02.03-03.15.09:007][908]LogAudio: Display: Audio Device (ID: 34) registered with world 'DefaultMap'.
+[2025.02.03-03.15.09:007][908]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2025.02.03-03.15.09:009][908]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.03-03.15.09:011][908]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.03-10.15.09
+[2025.02.03-03.15.09:011][908]LogWorld: Bringing up level for play took: 0.001835
+[2025.02.03-03.15.09:012][908]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2025.02.03-03.15.09:016][908]LogStreaming: Display: FlushAsyncLoading(): 45 QueuedPackages, 0 AsyncPackages
+[2025.02.03-03.15.09:112][908]LogWorldPartition: Warning: Failed to load actor package /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/1/6N/IXDYKP3MWVGILS7NPU9LVM
+[2025.02.03-03.15.09:112][908]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7
+[2025.02.03-03.15.09:150][908]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.03-03.15.09:150][908]LogTemp: Warning: SpawnItem
+[2025.02.03-03.15.09:150][908]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.15.09:150][908]LogTemp: Warning: 252
+[2025.02.03-03.15.09:150][908]LogTemp: Warning: SpawnItem
+[2025.02.03-03.15.09:150][908]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.15.09:150][908]LogTemp: Warning: 189
+[2025.02.03-03.15.09:150][908]LogTemp: Warning: SpawnItem
+[2025.02.03-03.15.09:150][908]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.15.09:150][908]LogTemp: Warning: 290
+[2025.02.03-03.15.09:160][908]PIE: Server logged in
+[2025.02.03-03.15.09:162][908]PIE: Play in editor total start time 0.24 seconds.
+[2025.02.03-03.15.30:535][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.15.30:536][504]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.15.30:543][504]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-03.15.30:543][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.15.30:543][504]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.03-03.15.30:543][504]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.03-03.15.30:543][504]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.03-03.15.30:543][504]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.03-03.15.30:546][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-03.15.30:552][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.15.30:569][504]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.03-03.15.30:570][504]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2025.02.03-03.15.30:570][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.02.03-03.15.30:571][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.02.03-03.15.30:574][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.15.30:580][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.02.03-03.15.30:652][505]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.02.03-03.16.11:661][779]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.03-03.16.19:335][379]LogLiveCoding: Display:    Creating library D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_12.lib and object D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_12.exp
+[2025.02.03-03.16.19:527][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.02.03-03.16.19:808][384]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.02.03-03.16.19:808][384]LogLiveCoding: Display: Live coding succeeded
+[2025.02.03-03.16.23:558][622]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-03.16.23:580][622]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.03-03.16.23:580][622]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.03-03.16.23:584][622]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 4.037 ms (total: 144.266 ms)
+[2025.02.03-03.16.23:593][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-03.16.23:593][622]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.16.23:599][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006239s)
+[2025.02.03-03.16.23:599][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006278s)
+[2025.02.03-03.16.23:654][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.02.03-03.16.23:658][622]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.03-03.16.23:659][622]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.03-03.16.23:659][622]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.03-03.16.23:659][622]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.03-03.16.23:659][622]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.03-03.16.23:664][622]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.03-03.16.23:664][622]LogWorldPartition: Display: WorldPartition initialize took 5.174 ms (total: 864.146 ms)
+[2025.02.03-03.16.23:664][622]LogPlayLevel: PIE: World Init took: (0.006400s)
+[2025.02.03-03.16.23:822][622]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2025.02.03-03.16.23:823][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-03.16.23:823][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-03.16.23:823][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-03.16.23:823][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-03.16.23:823][622]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-03.16.23:823][622]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-03.16.23:823][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-03.16.23:823][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-03.16.23:823][622]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-03.16.23:823][622]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-03.16.23:823][622]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-03.16.23:827][622]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-03.16.23:836][622]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.02.03-03.16.23:836][622]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-03.16.23:836][622]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-03.16.23:836][622]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-03.16.23:837][622]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2025.02.03-03.16.23:837][622]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2025.02.03-03.16.23:838][622]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2025.02.03-03.16.23:838][622]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2025.02.03-03.16.23:838][622]LogInit: FAudioDevice initialized with ID 35.
+[2025.02.03-03.16.23:838][622]LogAudio: Display: Audio Device (ID: 35) registered with world 'DefaultMap'.
+[2025.02.03-03.16.23:838][622]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2025.02.03-03.16.23:841][622]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.03-03.16.23:842][622]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.03-10.16.23
+[2025.02.03-03.16.23:843][622]LogWorld: Bringing up level for play took: 0.001090
+[2025.02.03-03.16.23:844][622]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2025.02.03-03.16.23:848][622]LogStreaming: Display: FlushAsyncLoading(): 45 QueuedPackages, 0 AsyncPackages
+[2025.02.03-03.16.23:941][622]LogWorldPartition: Warning: Failed to load actor package /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/1/6N/IXDYKP3MWVGILS7NPU9LVM
+[2025.02.03-03.16.23:941][622]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_4JT8N48YJMNS8VLOTU2PZP3U7
+[2025.02.03-03.16.23:979][622]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.03-03.16.23:979][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:979][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:979][622]LogTemp: Warning: 227
+[2025.02.03-03.16.23:979][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:979][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 40
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 13
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 338
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 106
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 108
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 302
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 254
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: 269
+[2025.02.03-03.16.23:980][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:980][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 345
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 10
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 17
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 263
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 225
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 54
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 135
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 172
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:981][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: 276
+[2025.02.03-03.16.23:981][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 298
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 99
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 121
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 188
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 222
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 219
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 219
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:982][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: 278
+[2025.02.03-03.16.23:982][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:983][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: 352
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:983][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: 80
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:983][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: 207
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:983][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: 269
+[2025.02.03-03.16.23:983][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 191
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 290
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 9
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 4
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 92
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 331
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 101
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 26
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 278
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 277
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 13
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 149
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: 140
+[2025.02.03-03.16.23:984][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:984][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 246
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 6
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 73
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 18
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 326
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 278
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 186
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: 313
+[2025.02.03-03.16.23:985][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:985][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: 233
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:986][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: 205
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:986][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: 106
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:986][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: 117
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:986][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_55 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: 10
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:986][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: 274
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:986][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: 301
+[2025.02.03-03.16.23:986][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:986][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 333
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 310
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 201
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 49
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 109
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 293
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 212
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 293
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: 215
+[2025.02.03-03.16.23:987][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:987][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: 22
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:988][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: 63
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:988][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: 332
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:988][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: 35
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:988][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: 305
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:988][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: 255
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:988][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: 155
+[2025.02.03-03.16.23:988][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:989][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:989][622]LogTemp: Warning: 342
+[2025.02.03-03.16.23:989][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:989][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:989][622]LogTemp: Warning: 21
+[2025.02.03-03.16.23:989][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:989][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: 17
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:990][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: 237
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:990][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: 356
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:990][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: 120
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:990][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: 128
+[2025.02.03-03.16.23:990][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:990][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: 153
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:991][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: 142
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:991][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: 258
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:991][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: 82
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:991][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: 77
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:991][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: 117
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:991][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: 145
+[2025.02.03-03.16.23:991][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:991][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 220
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:992][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 50
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:992][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 57
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:992][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 217
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:992][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 110
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:992][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 348
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:992][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_94 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 195
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:992][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_95 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: 20
+[2025.02.03-03.16.23:992][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:993][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_96 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:993][622]LogTemp: Warning: 206
+[2025.02.03-03.16.23:993][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:993][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_97 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:993][622]LogTemp: Warning: 360
+[2025.02.03-03.16.23:993][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:993][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_98 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:993][622]LogTemp: Warning: 309
+[2025.02.03-03.16.23:993][622]LogTemp: Warning: SpawnItem
+[2025.02.03-03.16.23:993][622]LogActor: Warning: BP_Item_C /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap:PersistentLevel.BP_Item_C_99 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.02.03-03.16.23:993][622]LogTemp: Warning: 83
+[2025.02.03-03.16.24:144][622]PIE: Server logged in
+[2025.02.03-03.16.24:145][622]PIE: Play in editor total start time 0.578 seconds.
+[2025.02.03-03.16.54:557][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.16.54:557][863]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.03-03.16.54:564][863]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-03.16.54:565][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.16.54:565][863]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.03-03.16.54:565][863]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.03-03.16.54:565][863]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.03-03.16.54:565][863]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.03-03.16.54:568][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-03.16.54:574][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.16.54:592][863]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.03-03.16.54:605][863]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2025.02.03-03.16.54:605][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2025.02.03-03.16.54:607][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2025.02.03-03.16.54:610][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-03.16.54:628][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.02.03-03.16.54:702][864]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2025.02.03-03.16.56:697][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.02.03-03.18.17:737][332]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5097.343262
+[2025.02.03-03.18.18:737][335]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-03.18.18:737][335]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5098.010254, Update Interval: 305.443878
+[2025.02.03-03.22.26:654][121]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek HD Audio 2nd output (Realtek(R) Audio), InstanceID=1
+[2025.02.03-03.22.26:793][121]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3560
+[2025.02.03-03.22.27:461][123]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b007b9a5-b163-4c58-842f-062e881172f1}, Name=Realtek HD Audio 2nd output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=501.89
+[2025.02.03-03.22.27:461][123]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.02.03-03.22.27:462][123]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.02.03-03.24.13:812][442]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5453.411621
+[2025.02.03-03.24.14:815][445]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-03.24.14:815][445]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5454.080566, Update Interval: 343.906372

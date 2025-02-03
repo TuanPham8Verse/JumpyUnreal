@@ -61,8 +61,10 @@ void AJumpyCharacter::BeginPlay()
 		}
 	}
 
-
-	SpawnItem();
+	for (int i = 0; i < 100; i++) 
+	{
+		SpawnItem(i * 100);
+	}
 }
 
 float AJumpyCharacter::AddTwoNumber(float A, float B)
@@ -130,13 +132,13 @@ void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 }
 
 // Function to spawn item
-void AJumpyCharacter::SpawnItem()
+void AJumpyCharacter::SpawnItem(float y)
 {
 	if (ItemClass)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("SpawnItem"));
 
-		FVector spawnLocation = FVector(-200.0, 0.0, 77.150006);
+		FVector spawnLocation = FVector(-200.0, y, 77.150006);
 
 		// Get player location and rotation
 		//FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 200.0f;
