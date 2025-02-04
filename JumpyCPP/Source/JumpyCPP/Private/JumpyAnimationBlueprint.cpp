@@ -11,7 +11,6 @@ void UJumpyAnimationBlueprint::NativeInitializeAnimation()
 
 	if (jumpyCharacter)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("JumpyCharacter NativeInitializeAnimation Playing"));
 		JumpyCharacterMovement = jumpyCharacter->GetCharacterMovement();
 	}
 }
@@ -24,8 +23,16 @@ void UJumpyAnimationBlueprint::NativeUpdateAnimation(float DeltaSeconds)
 	{
 		FVector velocityVector = JumpyCharacterMovement->Velocity;
 		GroundSpeed = UKismetMathLibrary::VSizeXY(velocityVector);
+	
+		CurrentFrameRotator = jumpyCharacter->GetActorRotation();
+		FRotator DeltaRotator = UKismetMathLibrary::NormalizedDeltaRotator(LastFrameRotator, CurrentFrameRotator);
+		
+		leanAmount = UKismetMathLibrary::FInterpTo(leanAmount, DeltaRotator.Yaw, DeltaSeconds, 2);
 
-		UE_LOG(LogTemp, Warning, TEXT("GroundSpeed is: %f"), GroundSpeed);
+		LastFrameRotator = jumpyCharacter->GetActorRotation();
+
+		//Calculate Jumping
+		isInAir = JumpyCharacterMovement->IsFalling();
 	}
 }
 

@@ -29,4 +29,12 @@ public:
 
 	UPROPERTY(BlueprintReadOnly)
 	float GroundSpeed;
+
+	UPROPERTY(BlueprintReadOnly)
+	float leanAmount;
+	FRotator CurrentFrameRotator;
+	FRotator LastFrameRotator;
+
+	UPROPERTY(BlueprintReadOnly);
+	bool isInAir;
 };
