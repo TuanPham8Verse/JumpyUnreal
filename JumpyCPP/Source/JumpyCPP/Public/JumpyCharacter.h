@@ -8,6 +8,8 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "InputMappingContext.h"
+#include "Blueprint/UserWidget.h"
+#include "JumpyUI.h"
 #include "JumpyCharacter.generated.h"
 
 UCLASS()
@@ -30,6 +32,9 @@ public:
 	UPROPERTY()
 	int IndexCoin = 0;
 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UUserWidget> widgetSubclass;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -46,6 +51,7 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "mInput")
 	UInputAction* IAJumpAction;
 
+	UJumpyUI* PlayerHUD;
 private:
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArm;
