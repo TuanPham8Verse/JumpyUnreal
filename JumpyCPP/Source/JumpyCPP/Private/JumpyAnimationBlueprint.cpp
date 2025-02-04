@@ -33,6 +33,18 @@ void UJumpyAnimationBlueprint::NativeUpdateAnimation(float DeltaSeconds)
 
 		//Calculate Jumping
 		isInAir = JumpyCharacterMovement->IsFalling();
+
+		FVector MovementInputVector = jumpyCharacter->GetLastMovementInputVector();
+		float MovementInputValue = UKismetMathLibrary::VSize(MovementInputVector);
+
+		if (MovementInputValue > 0) 
+		{
+			MovementInputBool = true;
+		}
+		else
+		{
+			MovementInputBool = false;
+		}
 	}
 }
 

@@ -60,6 +60,10 @@ struct Z_Construct_UClass_UJumpyAnimationBlueprint_Statics
 		{ "Category", "JumpyAnimationBlueprint" },
 		{ "ModuleRelativePath", "Public/JumpyAnimationBlueprint.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MovementInputBool_MetaData[] = {
+		{ "Category", "JumpyAnimationBlueprint" },
+		{ "ModuleRelativePath", "Public/JumpyAnimationBlueprint.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_jumpyCharacter;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpyCharacterMovement;
@@ -67,6 +71,8 @@ struct Z_Construct_UClass_UJumpyAnimationBlueprint_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_leanAmount;
 	static void NewProp_isInAir_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_isInAir;
+	static void NewProp_MovementInputBool_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_MovementInputBool;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -83,12 +89,18 @@ void Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_isInAir_SetBit
 	((UJumpyAnimationBlueprint*)Obj)->isInAir = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_isInAir = { "isInAir", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UJumpyAnimationBlueprint), &Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_isInAir_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_isInAir_MetaData), NewProp_isInAir_MetaData) };
+void Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_MovementInputBool_SetBit(void* Obj)
+{
+	((UJumpyAnimationBlueprint*)Obj)->MovementInputBool = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_MovementInputBool = { "MovementInputBool", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UJumpyAnimationBlueprint), &Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_MovementInputBool_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MovementInputBool_MetaData), NewProp_MovementInputBool_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_jumpyCharacter,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_JumpyCharacterMovement,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_GroundSpeed,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_leanAmount,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_isInAir,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::NewProp_MovementInputBool,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UJumpyAnimationBlueprint_Statics::DependentSingletons[])() = {
@@ -132,10 +144,10 @@ UJumpyAnimationBlueprint::~UJumpyAnimationBlueprint() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyAnimationBlueprint_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UJumpyAnimationBlueprint, UJumpyAnimationBlueprint::StaticClass, TEXT("UJumpyAnimationBlueprint"), &Z_Registration_Info_UClass_UJumpyAnimationBlueprint, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UJumpyAnimationBlueprint), 3362359216U) },
+		{ Z_Construct_UClass_UJumpyAnimationBlueprint, UJumpyAnimationBlueprint::StaticClass, TEXT("UJumpyAnimationBlueprint"), &Z_Registration_Info_UClass_UJumpyAnimationBlueprint, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UJumpyAnimationBlueprint), 579288354U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyAnimationBlueprint_h_2423587925(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyAnimationBlueprint_h_400561329(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyAnimationBlueprint_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyAnimationBlueprint_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

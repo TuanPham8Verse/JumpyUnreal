@@ -1578,3 +1578,919 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.02.04-07.40.06:102][818]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.02.04-07.40.06:102][818]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
 [2025.02.04-07.40.06:102][818]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.41.33:229][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.41.33:275][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.41.33:275][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.41.33:275][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.41.33:292][185]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.41.33:292][185]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy26A13C1D47681BC6BE44929BA7F5F2DA.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.41.33:308][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.103 ms (total: 1.21 sec)
+[2025.02.04-07.41.33:358][185]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.41.33:358][185]LogContentValidation: Enabled validators:
+[2025.02.04-07.41.33:358][185]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.41.33:358][185]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.41.33:359][185]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.41.33:359][185]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.41.33:359][185]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.41.33:687][219]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.02.04-07.42.43:169][523]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 318.234039
+[2025.02.04-07.42.44:505][527]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.04-07.42.44:505][527]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 319.234619, Update Interval: 357.266144
+[2025.02.04-07.44.14:172][947]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.04-07.44.26:817][864]LogLiveCoding: Display:    Creating library D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_1.lib and object D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Binaries\Win64\UnrealEditor-JumpyCPP.patch_1.exp
+[2025.02.04-07.44.26:995][870]LogClass: UPackage /Script/JumpyCPP Reload.
+[2025.02.04-07.44.26:995][870]LogClass: UClass JumpyAnimationBlueprint Reload.
+[2025.02.04-07.44.26:995][870]LogClass: Could not find existing class JumpyAnimationBlueprint in package /Script/JumpyCPP for reload, assuming new or modified class
+[2025.02.04-07.44.27:003][870]Re-instancing JumpyAnimationBlueprint after reload.
+[2025.02.04-07.44.27:091][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.02.04-07.44.27:423][871]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2025.02.04-07.44.27:423][871]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.04-07.44.31:961][142]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.04-07.44.31:974][142]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.04-07.44.31:974][142]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.04-07.44.31:983][142]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 8.193 ms (total: 20.641 ms)
+[2025.02.04-07.44.31:984][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.04-07.44.31:984][142]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.44.31:991][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006386s)
+[2025.02.04-07.44.31:991][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006423s)
+[2025.02.04-07.44.32:045][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.02.04-07.44.32:045][142]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.04-07.44.32:047][142]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.04-07.44.32:047][142]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.04-07.44.32:047][142]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.04-07.44.32:047][142]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.04-07.44.32:052][142]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.04-07.44.32:052][142]LogWorldPartition: Display: WorldPartition initialize took 5.339 ms (total: 381.955 ms)
+[2025.02.04-07.44.32:052][142]LogPlayLevel: PIE: World Init took: (0.006835s)
+[2025.02.04-07.44.32:063][142]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.02.04-07.44.32:063][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.04-07.44.32:063][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.04-07.44.32:063][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.04-07.44.32:063][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.04-07.44.32:063][142]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.04-07.44.32:063][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.04-07.44.32:063][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.04-07.44.32:063][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.04-07.44.32:063][142]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.04-07.44.32:063][142]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.04-07.44.32:063][142]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.04-07.44.32:065][142]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.04-07.44.32:080][142]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.02.04-07.44.32:080][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.04-07.44.32:080][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.04-07.44.32:080][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.04-07.44.32:081][142]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.02.04-07.44.32:081][142]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.02.04-07.44.32:082][142]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.02.04-07.44.32:082][142]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.02.04-07.44.32:082][142]LogInit: FAudioDevice initialized with ID 5.
+[2025.02.04-07.44.32:082][142]LogAudio: Display: Audio Device (ID: 5) registered with world 'DefaultMap'.
+[2025.02.04-07.44.32:082][142]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.02.04-07.44.32:085][142]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.04-07.44.32:086][142]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.04-14.44.32
+[2025.02.04-07.44.32:086][142]LogWorld: Bringing up level for play took: 0.001155
+[2025.02.04-07.44.32:088][142]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.02.04-07.44.32:092][142]LogStreaming: Display: FlushAsyncLoading(): 59 QueuedPackages, 0 AsyncPackages
+[2025.02.04-07.44.32:243][142]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.04-07.44.32:266][142]PIE: Server logged in
+[2025.02.04-07.44.32:267][142]PIE: Play in editor total start time 0.299 seconds.
+[2025.02.04-07.44.34:525][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.44.34:525][295]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.44.34:534][295]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.04-07.44.34:535][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.44.34:535][295]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.04-07.44.34:535][295]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.04-07.44.34:536][295]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.04-07.44.34:536][295]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.04-07.44.34:540][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.04-07.44.34:546][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.44.34:569][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.44.34:570][295]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.02.04-07.44.34:570][295]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.02.04-07.44.34:571][295]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.02.04-07.44.34:597][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.02.04-07.44.34:673][296]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.02.04-07.46.20:188][603]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.04-07.46.21:079][661]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.02.04-07.46.21:079][661]LogLiveCoding: Display: Live coding succeeded, no code changes detected
+[2025.02.04-07.46.41:167][708]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.46.41:201][708]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.46.41:211][708]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.46.41:211][708]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.46.41:211][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.46.41:231][708]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.46.41:231][708]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_JumpyBE251F6B4737E1C747ED9BB1F4ECCE76.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.46.41:243][708]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.633 ms (total: 1.28 sec)
+[2025.02.04-07.46.41:301][708]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.46.41:302][708]LogContentValidation: Enabled validators:
+[2025.02.04-07.46.41:302][708]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.46.41:302][708]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.46.41:302][708]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.46.41:302][708]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.46.41:302][708]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.46.42:524][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.02.04-07.46.42:979][886]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.46.43:037][886]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.46.43:047][886]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.46.43:047][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.46.43:047][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.46.43:064][886]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.46.43:064][886]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy80A6BED84AD00F5D02B72382E79B4518.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.46.43:076][886]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.374 ms (total: 1.38 sec)
+[2025.02.04-07.46.43:119][886]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.46.43:119][886]LogContentValidation: Enabled validators:
+[2025.02.04-07.46.43:119][886]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.46.43:119][886]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.46.43:119][886]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.46.43:119][886]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.46.43:120][886]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.47.02:910][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.47.02:958][ 84]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.47.02:966][ 84]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.47.02:966][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.47.02:966][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.47.02:984][ 84]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.47.02:984][ 84]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy127E3D234420CC8E7894388CA852C7DD.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.47.02:991][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.104 ms (total: 1.46 sec)
+[2025.02.04-07.47.03:041][ 84]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.47.03:041][ 84]LogContentValidation: Enabled validators:
+[2025.02.04-07.47.03:041][ 84]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.47.03:041][ 84]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.47.03:041][ 84]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.47.03:041][ 84]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.47.03:041][ 84]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.47.03:649][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.02.04-07.47.04:066][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.47.04:109][192]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.47.04:119][192]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.47.04:119][192]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.47.04:119][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.47.04:136][192]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.47.04:136][192]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy1CEC796A4D72BDC27D8636B9A61E26FC.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.47.04:147][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.514 ms (total: 1.54 sec)
+[2025.02.04-07.47.04:191][192]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.47.04:191][192]LogContentValidation: Enabled validators:
+[2025.02.04-07.47.04:191][192]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.47.04:191][192]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.47.04:191][192]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.47.04:191][192]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.47.04:191][192]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.47.11:558][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.47.11:618][ 18]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.47.11:618][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.47.11:618][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.47.11:637][ 18]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.47.11:638][ 18]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy29E490634B6EB5E4C26F0494C93CB8BE.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.47.11:655][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.774 ms (total: 1.64 sec)
+[2025.02.04-07.47.11:716][ 18]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.47.11:716][ 18]LogContentValidation: Enabled validators:
+[2025.02.04-07.47.11:716][ 18]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.47.11:716][ 18]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.47.11:716][ 18]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.47.11:716][ 18]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.47.11:716][ 18]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.47.11:978][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.04-07.47.11:989][ 48]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.04-07.47.11:989][ 48]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.04-07.47.11:994][ 48]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 4.225 ms (total: 24.867 ms)
+[2025.02.04-07.47.11:994][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.04-07.47.11:994][ 48]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.47.12:001][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006664s)
+[2025.02.04-07.47.12:001][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006695s)
+[2025.02.04-07.47.12:019][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.02.04-07.47.12:021][ 48]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.04-07.47.12:022][ 48]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.04-07.47.12:022][ 48]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.04-07.47.12:022][ 48]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.04-07.47.12:022][ 48]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.04-07.47.12:027][ 48]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.04-07.47.12:027][ 48]LogWorldPartition: Display: WorldPartition initialize took 5.205 ms (total: 387.160 ms)
+[2025.02.04-07.47.12:027][ 48]LogPlayLevel: PIE: World Init took: (0.006297s)
+[2025.02.04-07.47.12:037][ 48]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.02.04-07.47.12:037][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.04-07.47.12:037][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.04-07.47.12:037][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.04-07.47.12:037][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.04-07.47.12:037][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.04-07.47.12:037][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.04-07.47.12:037][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.04-07.47.12:037][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.04-07.47.12:037][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.04-07.47.12:037][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.04-07.47.12:037][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.04-07.47.12:039][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.04-07.47.12:053][ 48]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.02.04-07.47.12:053][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.04-07.47.12:053][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.04-07.47.12:053][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.04-07.47.12:054][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.02.04-07.47.12:054][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.02.04-07.47.12:056][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.02.04-07.47.12:056][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.02.04-07.47.12:056][ 48]LogInit: FAudioDevice initialized with ID 6.
+[2025.02.04-07.47.12:056][ 48]LogAudio: Display: Audio Device (ID: 6) registered with world 'DefaultMap'.
+[2025.02.04-07.47.12:056][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.02.04-07.47.12:099][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.47.12:099][ 48]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.04-07.47.12:101][ 48]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.04-14.47.12
+[2025.02.04-07.47.12:101][ 48]LogWorld: Bringing up level for play took: 0.001586
+[2025.02.04-07.47.12:104][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.02.04-07.47.12:109][ 48]LogStreaming: Display: FlushAsyncLoading(): 59 QueuedPackages, 0 AsyncPackages
+[2025.02.04-07.47.12:240][ 48]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.04-07.47.12:264][ 48]PIE: Server logged in
+[2025.02.04-07.47.12:265][ 48]PIE: Play in editor total start time 0.279 seconds.
+[2025.02.04-07.47.42:189][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_0 failed to register BulkData A3A70A2A4DE032F2902D6EEC0657F847 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: b893e784f1e41603e181d4752bc4f936368e305d
+    ExistingPayload: b893e784f1e41603e181d4752bc4f936368e305d
+[2025.02.04-07.47.42:189][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_1 failed to register BulkData 16CA312276CA02C541AD4A99347B0C21 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 3124d0e49eb1ca58228d5b8f2135110111ccef53
+    ExistingPayload: 3124d0e49eb1ca58228d5b8f2135110111ccef53
+[2025.02.04-07.47.42:189][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_10 failed to register BulkData 4AD329BD950F47DE94446831BF5C861A from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.42:189][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_11 failed to register BulkData 25A6C4DCDA19FEDF219A20F97561FE5E from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.42:189][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_2 failed to register BulkData 7B62D7F791C8D9941EA3C62704111EC7 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 29cc7bbf65c41b9271fce129a275d77267b3e875
+    ExistingPayload: 29cc7bbf65c41b9271fce129a275d77267b3e875
+[2025.02.04-07.47.42:190][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_3 failed to register BulkData 92A7D484E253D811010D5CF7D945E61E from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: ced06c3fef81d73a6c8726b8b29b627e8f5ba7c0
+    ExistingPayload: ced06c3fef81d73a6c8726b8b29b627e8f5ba7c0
+[2025.02.04-07.47.42:190][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_4 failed to register BulkData 6FF8D5FB2983E37AD7E3611D98676D64 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: e40d17eed8dc6c0ef83259d4e551e0400a25782f
+    ExistingPayload: e40d17eed8dc6c0ef83259d4e551e0400a25782f
+[2025.02.04-07.47.42:190][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_5 failed to register BulkData E99858288FF895FF09989C5A88B48962 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 50d6a283f071f5590d299a9e97286494d8422254
+    ExistingPayload: 50d6a283f071f5590d299a9e97286494d8422254
+[2025.02.04-07.47.42:190][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_6 failed to register BulkData 744A3635476ECD196A60F23A800D19B2 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: aaa554aa41d1ae25e3377b5f943c27cd9538b8a2
+    ExistingPayload: aaa554aa41d1ae25e3377b5f943c27cd9538b8a2
+[2025.02.04-07.47.42:190][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_7 failed to register BulkData 4523C0ED57E804A41C8C59C5AF3C6391 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 5d3730ee4c2b97fc6b1f5722046b1be0bf5f6e1f
+    ExistingPayload: 5d3730ee4c2b97fc6b1f5722046b1be0bf5f6e1f
+[2025.02.04-07.47.42:190][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_8 failed to register BulkData E0C08158FC188674DB36EF616A6DDD4B from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.42:190][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_9 failed to register BulkData DE45E9EBF287A82CABC9FB6483EA2928 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.42:191][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_0 failed to register BulkData 6DA215BA9F58689DB0FCFEEF419EC344 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: b92552fab8ba35ea0e6311067ace795a286e4eb1
+    ExistingPayload: b92552fab8ba35ea0e6311067ace795a286e4eb1
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_1 failed to register BulkData 20C9C1614EDC72A30B10F439EE61C853 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 65c38fad53b16eb1a71087e5c431e5963abee8fc
+    ExistingPayload: 65c38fad53b16eb1a71087e5c431e5963abee8fc
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_10 failed to register BulkData E3552CAC62AA25C64D9B89870BFED2A7 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_11 failed to register BulkData E9CFB331E197D8A2FBC2D74F48DAE225 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_2 failed to register BulkData 2206E92EA24891F0207D3981FF8AE426 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 6a26fb16073ea302019a1147529e935a9298cb2a
+    ExistingPayload: 6a26fb16073ea302019a1147529e935a9298cb2a
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_3 failed to register BulkData 5435CF99222D265B32B2408635CA4AD9 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: d57ab356423639fe211e761a1dac44a5b48b1007
+    ExistingPayload: d57ab356423639fe211e761a1dac44a5b48b1007
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_4 failed to register BulkData 27AD4C6A3522748422A333D2F1221156 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 9226190d7d58be25b7d686f9198ff15bc921e7bb
+    ExistingPayload: 9226190d7d58be25b7d686f9198ff15bc921e7bb
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_5 failed to register BulkData C7B78400D4F856789C4838AD5FF6D32C from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 6d9c6b988419e26fe3a2c8ceaa3e6a869a4648e9
+    ExistingPayload: 6d9c6b988419e26fe3a2c8ceaa3e6a869a4648e9
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_6 failed to register BulkData 00F788D8283E6D2052FFC3FD7278D397 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: ea85b8318c65b2cc9fc9a60c85b90c8d3f9f2c0f
+    ExistingPayload: ea85b8318c65b2cc9fc9a60c85b90c8d3f9f2c0f
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_7 failed to register BulkData 33D75145516F12E925902A8D2834A9A8 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 16e455d3cd6bce4ae2063513f4e0ecb4a2e81ca9
+    ExistingPayload: 16e455d3cd6bce4ae2063513f4e0ecb4a2e81ca9
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_8 failed to register BulkData C8B2DF3FE86AAFDCE718F0E319D1DD17 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.42:192][996]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_9 failed to register BulkData 70E4C630D5B920DDF6E8CDC80E685B67 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_0 failed to register BulkData A3A70A2A4DE032F2902D6EEC0657F847 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: b893e784f1e41603e181d4752bc4f936368e305d
+    ExistingPayload: b893e784f1e41603e181d4752bc4f936368e305d
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_1 failed to register BulkData 16CA312276CA02C541AD4A99347B0C21 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 3124d0e49eb1ca58228d5b8f2135110111ccef53
+    ExistingPayload: 3124d0e49eb1ca58228d5b8f2135110111ccef53
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_10 failed to register BulkData 4AD329BD950F47DE94446831BF5C861A from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_11 failed to register BulkData 25A6C4DCDA19FEDF219A20F97561FE5E from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_2 failed to register BulkData 7B62D7F791C8D9941EA3C62704111EC7 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 29cc7bbf65c41b9271fce129a275d77267b3e875
+    ExistingPayload: 29cc7bbf65c41b9271fce129a275d77267b3e875
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_3 failed to register BulkData 92A7D484E253D811010D5CF7D945E61E from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: ced06c3fef81d73a6c8726b8b29b627e8f5ba7c0
+    ExistingPayload: ced06c3fef81d73a6c8726b8b29b627e8f5ba7c0
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_4 failed to register BulkData 6FF8D5FB2983E37AD7E3611D98676D64 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: e40d17eed8dc6c0ef83259d4e551e0400a25782f
+    ExistingPayload: e40d17eed8dc6c0ef83259d4e551e0400a25782f
+[2025.02.04-07.47.43:410][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_5 failed to register BulkData E99858288FF895FF09989C5A88B48962 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 50d6a283f071f5590d299a9e97286494d8422254
+    ExistingPayload: 50d6a283f071f5590d299a9e97286494d8422254
+[2025.02.04-07.47.43:411][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_6 failed to register BulkData 744A3635476ECD196A60F23A800D19B2 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: aaa554aa41d1ae25e3377b5f943c27cd9538b8a2
+    ExistingPayload: aaa554aa41d1ae25e3377b5f943c27cd9538b8a2
+[2025.02.04-07.47.43:411][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_7 failed to register BulkData 4523C0ED57E804A41C8C59C5AF3C6391 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: 5d3730ee4c2b97fc6b1f5722046b1be0bf5f6e1f
+    ExistingPayload: 5d3730ee4c2b97fc6b1f5722046b1be0bf5f6e1f
+[2025.02.04-07.47.43:411][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_8 failed to register BulkData E0C08158FC188674DB36EF616A6DDD4B from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:411][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0.Heightmap_9 failed to register BulkData DE45E9EBF287A82CABC9FB6483EA2928 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_7N1AHRY0W252AS0U0RCAGUQHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/PW/2KY41GHJP1ASEA5V2QFC69.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_0 failed to register BulkData 6DA215BA9F58689DB0FCFEEF419EC344 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: b92552fab8ba35ea0e6311067ace795a286e4eb1
+    ExistingPayload: b92552fab8ba35ea0e6311067ace795a286e4eb1
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_1 failed to register BulkData 20C9C1614EDC72A30B10F439EE61C853 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 65c38fad53b16eb1a71087e5c431e5963abee8fc
+    ExistingPayload: 65c38fad53b16eb1a71087e5c431e5963abee8fc
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_10 failed to register BulkData E3552CAC62AA25C64D9B89870BFED2A7 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_11 failed to register BulkData E9CFB331E197D8A2FBC2D74F48DAE225 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_2 failed to register BulkData 2206E92EA24891F0207D3981FF8AE426 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 6a26fb16073ea302019a1147529e935a9298cb2a
+    ExistingPayload: 6a26fb16073ea302019a1147529e935a9298cb2a
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_3 failed to register BulkData 5435CF99222D265B32B2408635CA4AD9 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: d57ab356423639fe211e761a1dac44a5b48b1007
+    ExistingPayload: d57ab356423639fe211e761a1dac44a5b48b1007
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_4 failed to register BulkData 27AD4C6A3522748422A333D2F1221156 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 9226190d7d58be25b7d686f9198ff15bc921e7bb
+    ExistingPayload: 9226190d7d58be25b7d686f9198ff15bc921e7bb
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_5 failed to register BulkData C7B78400D4F856789C4838AD5FF6D32C from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 6d9c6b988419e26fe3a2c8ceaa3e6a869a4648e9
+    ExistingPayload: 6d9c6b988419e26fe3a2c8ceaa3e6a869a4648e9
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_6 failed to register BulkData 00F788D8283E6D2052FFC3FD7278D397 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: ea85b8318c65b2cc9fc9a60c85b90c8d3f9f2c0f
+    ExistingPayload: ea85b8318c65b2cc9fc9a60c85b90c8d3f9f2c0f
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_7 failed to register BulkData 33D75145516F12E925902A8D2834A9A8 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: 16e455d3cd6bce4ae2063513f4e0ecb4a2e81ca9
+    ExistingPayload: 16e455d3cd6bce4ae2063513f4e0ecb4a2e81ca9
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_8 failed to register BulkData C8B2DF3FE86AAFDCE718F0E319D1DD17 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.43:413][ 76]LogBulkDataRegistry: Warning: /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH.DefaultMap:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0.Heightmap_9 failed to register BulkData 70E4C630D5B920DDF6E8CDC80E685B67 from Serialize/Persistent in the BulkDataRegistry: it already exists with owner /Memory/UEDPIE_0_79IOHWLF3B5U9DUHX9WBFMFSH_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/A/QO/765R335ZFZWZ8FUHCOZ79M.
+            Payload: f8403d8a2b2c3703faef54578222072fd4d7b565
+    ExistingPayload: f8403d8a2b2c3703faef54578222072fd4d7b565
+[2025.02.04-07.47.48:290][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.47.48:290][398]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.47.48:290][398]LogSlate: Window 'JumpyCPP Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.04-07.47.48:302][398]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.04-07.47.48:303][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.47.48:304][398]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.04-07.47.48:304][398]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.04-07.47.48:304][398]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.04-07.47.48:304][398]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.04-07.47.48:307][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.04-07.47.48:314][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.47.48:336][398]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.04-07.47.48:336][398]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.02.04-07.47.48:336][398]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.02.04-07.47.48:338][398]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.02.04-07.47.48:350][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2025.02.04-07.47.48:409][399]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.02.04-07.47.48:818][447]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.47.48:875][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.47.48:875][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.47.48:875][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.47.48:891][447]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.47.48:892][447]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_JumpyA8156D0244C6DD3807BF63BFBE9B041D.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.47.48:902][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.448 ms (total: 1.72 sec)
+[2025.02.04-07.47.48:954][447]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.47.48:954][447]LogContentValidation: Enabled validators:
+[2025.02.04-07.47.48:954][447]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.47.48:954][447]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.47.48:954][447]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.47.48:954][447]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.47.48:954][447]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.47.49:626][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.02.04-07.48.32:221][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.48.32:272][221]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.48.32:282][221]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.48.32:282][221]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.48.32:282][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.48.32:300][221]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.48.32:300][221]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy155A134B4D73EBB58C3BAA9508BD273D.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.48.32:316][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.096 ms (total: 1.82 sec)
+[2025.02.04-07.48.32:369][221]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.48.32:369][221]LogContentValidation: Enabled validators:
+[2025.02.04-07.48.32:369][221]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.48.32:369][221]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.48.32:369][221]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.48.32:369][221]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.48.32:369][221]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.48.35:168][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.48.35:224][527]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.48.35:235][527]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.48.35:235][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.48.35:235][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.48.35:252][527]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.48.35:252][527]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_JumpyA7BEB429475A28949182239DAEA0A968.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.48.35:262][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.867 ms (total: 1.91 sec)
+[2025.02.04-07.48.35:321][527]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.48.35:321][527]LogContentValidation: Enabled validators:
+[2025.02.04-07.48.35:321][527]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.48.35:321][527]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.48.35:321][527]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.48.35:321][527]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.48.35:321][527]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.48.44:125][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.48.44:181][521]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.48.44:189][521]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.48.44:189][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.48.44:189][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.48.44:207][521]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.48.44:208][521]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy5405811846E87479E0F0289A9FA96018.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.48.44:214][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.960 ms (total: 2.00 sec)
+[2025.02.04-07.48.44:264][521]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.48.44:264][521]LogContentValidation: Enabled validators:
+[2025.02.04-07.48.44:264][521]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.48.44:264][521]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.48.44:264][521]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.48.44:264][521]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.48.44:264][521]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.48.44:410][537]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 679.479309
+[2025.02.04-07.48.44:910][593]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.04-07.48.44:910][593]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 679.969849, Update Interval: 329.702454
+[2025.02.04-07.48.45:702][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.02.04-07.48.46:071][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.48.46:117][705]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.48.46:126][705]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.48.46:126][705]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.48.46:126][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.48.46:144][705]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.48.46:144][705]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy42E70EBE46E2E0D2421ED2B50BCD57F9.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.48.46:154][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.469 ms (total: 2.09 sec)
+[2025.02.04-07.48.46:198][705]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.48.46:198][705]LogContentValidation: Enabled validators:
+[2025.02.04-07.48.46:198][705]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.48.46:198][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.48.46:198][705]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.48.46:198][705]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.48.46:199][705]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.48.46:778][763]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.04-07.48.46:792][763]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.04-07.48.46:792][763]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.04-07.48.46:797][763]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 4.676 ms (total: 29.543 ms)
+[2025.02.04-07.48.46:798][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.04-07.48.46:798][763]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.48.46:804][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006678s)
+[2025.02.04-07.48.46:804][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006714s)
+[2025.02.04-07.48.46:823][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.02.04-07.48.46:826][763]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.04-07.48.46:827][763]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.04-07.48.46:827][763]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.04-07.48.46:827][763]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.04-07.48.46:827][763]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.04-07.48.46:833][763]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.04-07.48.46:833][763]LogWorldPartition: Display: WorldPartition initialize took 5.505 ms (total: 392.665 ms)
+[2025.02.04-07.48.46:833][763]LogPlayLevel: PIE: World Init took: (0.006915s)
+[2025.02.04-07.48.46:842][763]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.02.04-07.48.46:842][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.04-07.48.46:842][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.04-07.48.46:842][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.04-07.48.46:842][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.04-07.48.46:842][763]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.04-07.48.46:842][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.04-07.48.46:842][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.04-07.48.46:842][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.04-07.48.46:842][763]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.04-07.48.46:842][763]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.04-07.48.46:842][763]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.04-07.48.46:845][763]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.04-07.48.46:857][763]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.02.04-07.48.46:857][763]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.04-07.48.46:857][763]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.04-07.48.46:857][763]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.04-07.48.46:859][763]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.02.04-07.48.46:859][763]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.02.04-07.48.46:861][763]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.02.04-07.48.46:861][763]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.02.04-07.48.46:861][763]LogInit: FAudioDevice initialized with ID 7.
+[2025.02.04-07.48.46:861][763]LogAudio: Display: Audio Device (ID: 7) registered with world 'DefaultMap'.
+[2025.02.04-07.48.46:861][763]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.02.04-07.48.46:914][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.48.46:916][763]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.04-07.48.46:918][763]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.04-14.48.46
+[2025.02.04-07.48.46:918][763]LogWorld: Bringing up level for play took: 0.001618
+[2025.02.04-07.48.46:920][763]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.02.04-07.48.46:924][763]LogStreaming: Display: FlushAsyncLoading(): 59 QueuedPackages, 0 AsyncPackages
+[2025.02.04-07.48.47:065][763]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.04-07.48.47:088][763]PIE: Server logged in
+[2025.02.04-07.48.47:089][763]PIE: Play in editor total start time 0.303 seconds.
+[2025.02.04-07.48.56:021][314]LogTemp: Warning: ItemCoin :1
+[2025.02.04-07.48.56:022][314]LogTemp: Warning: PlayerCoin: 1
+[2025.02.04-07.48.56:515][345]LogTemp: Warning: ItemCoin :2
+[2025.02.04-07.48.56:515][345]LogTemp: Warning: PlayerCoin: 3
+[2025.02.04-07.49.20:967][900]LogTexture: Display: Waiting for textures to be ready 1/12 (/Memory/UEDPIE_0_0M85EUUN5U73AXCULESQBE77U_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/5/V2/JF0REM8319H57HMT5SJ0FY) ...
+[2025.02.04-07.49.20:984][900]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_0M85EUUN5U73AXCULESQBE77U took (less than) 25.36 ms
+[2025.02.04-07.49.21:628][941]LogTexture: Display: Waiting for textures to be ready 0/12 (/Memory/UEDPIE_0_DCAMGASM9ARFKKAQNCJDPSKHR_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/1/J4/JD6YXAL8NQL3IFH5A5AC1U) ...
+[2025.02.04-07.49.25:731][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.49.25:731][200]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.49.25:732][200]LogSlate: Window 'JumpyCPP Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.04-07.49.25:745][200]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.04-07.49.25:746][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.49.25:746][200]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.04-07.49.25:746][200]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.04-07.49.25:746][200]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.04-07.49.25:746][200]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.04-07.49.25:750][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.04-07.49.25:757][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.49.25:776][200]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.04-07.49.25:777][200]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.02.04-07.49.25:777][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.02.04-07.49.25:778][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.02.04-07.49.25:791][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.02.04-07.49.25:857][201]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.02.04-07.49.28:796][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.49.28:846][526]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.49.28:855][526]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.49.28:855][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.49.28:855][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.49.28:872][526]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.49.28:873][526]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_JumpyF48A864E4DD26A3FAAABE0A891DC8A9F.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.49.28:880][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.801 ms (total: 2.17 sec)
+[2025.02.04-07.49.28:928][526]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.49.28:928][526]LogContentValidation: Enabled validators:
+[2025.02.04-07.49.28:928][526]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.49.28:928][526]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.49.28:928][526]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.49.28:928][526]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.49.28:928][526]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.49.30:180][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.02.04-07.49.34:246][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.49.34:303][112]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.49.34:313][112]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.49.34:315][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.49.34:315][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.49.34:331][112]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.49.34:331][112]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy21B151CB4855EF5A1733B0AA111F96E9.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.49.34:338][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.037 ms (total: 2.26 sec)
+[2025.02.04-07.49.34:382][112]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.49.34:382][112]LogContentValidation: Enabled validators:
+[2025.02.04-07.49.34:382][112]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.49.34:382][112]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.49.34:383][112]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.49.34:383][112]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.49.34:383][112]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.49.35:471][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.02.04-07.49.35:803][238]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.49.35:856][238]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.49.35:867][238]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.49.35:867][238]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.49.35:867][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.49.35:886][238]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.49.35:886][238]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy64D8F440477726C52C805998B0BE5816.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.49.35:898][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.191 ms (total: 2.36 sec)
+[2025.02.04-07.49.35:933][238]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.49.35:934][238]LogContentValidation: Enabled validators:
+[2025.02.04-07.49.35:934][238]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.49.35:934][238]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.49.35:934][238]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.49.35:934][238]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.49.35:934][238]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.49.36:402][289]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.04-07.49.36:416][289]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.04-07.49.36:416][289]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.04-07.49.36:421][289]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 4.211 ms (total: 33.755 ms)
+[2025.02.04-07.49.36:421][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.04-07.49.36:421][289]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.49.36:428][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006609s)
+[2025.02.04-07.49.36:428][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006641s)
+[2025.02.04-07.49.36:445][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.02.04-07.49.36:447][289]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.04-07.49.36:448][289]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.04-07.49.36:448][289]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.04-07.49.36:448][289]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.04-07.49.36:448][289]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.04-07.49.36:454][289]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.04-07.49.36:454][289]LogWorldPartition: Display: WorldPartition initialize took 5.281 ms (total: 397.946 ms)
+[2025.02.04-07.49.36:454][289]LogPlayLevel: PIE: World Init took: (0.006408s)
+[2025.02.04-07.49.36:464][289]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.02.04-07.49.36:464][289]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.04-07.49.36:464][289]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.04-07.49.36:464][289]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.04-07.49.36:464][289]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.04-07.49.36:464][289]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.04-07.49.36:464][289]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.04-07.49.36:464][289]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.04-07.49.36:464][289]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.04-07.49.36:464][289]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.04-07.49.36:464][289]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.04-07.49.36:464][289]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.04-07.49.36:466][289]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.04-07.49.36:479][289]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.02.04-07.49.36:479][289]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.04-07.49.36:479][289]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.04-07.49.36:480][289]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.04-07.49.36:480][289]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.02.04-07.49.36:480][289]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.02.04-07.49.36:482][289]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.02.04-07.49.36:482][289]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.02.04-07.49.36:482][289]LogInit: FAudioDevice initialized with ID 8.
+[2025.02.04-07.49.36:482][289]LogAudio: Display: Audio Device (ID: 8) registered with world 'DefaultMap'.
+[2025.02.04-07.49.36:482][289]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.04-07.49.36:533][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.49.36:533][289]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.04-07.49.36:537][289]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.04-14.49.36
+[2025.02.04-07.49.36:537][289]LogWorld: Bringing up level for play took: 0.002470
+[2025.02.04-07.49.36:539][289]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.02.04-07.49.36:543][289]LogStreaming: Display: FlushAsyncLoading(): 59 QueuedPackages, 0 AsyncPackages
+[2025.02.04-07.49.36:677][289]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.04-07.49.36:700][289]PIE: Server logged in
+[2025.02.04-07.49.36:701][289]PIE: Play in editor total start time 0.291 seconds.
+[2025.02.04-07.49.41:671][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.49.41:671][595]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.49.41:672][595]LogSlate: Window 'JumpyCPP Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.04-07.49.41:681][595]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.04-07.49.41:683][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.49.41:683][595]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.04-07.49.41:683][595]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.04-07.49.41:683][595]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.04-07.49.41:683][595]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.04-07.49.41:687][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.04-07.49.41:692][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.49.41:715][595]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.04-07.49.41:715][595]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.02.04-07.49.41:715][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.04-07.49.41:716][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.02.04-07.49.41:728][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.02.04-07.49.41:795][596]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.02.04-07.49.44:671][913]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.49.44:731][913]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.49.44:741][913]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.49.44:741][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.49.44:741][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.49.44:758][913]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.49.44:758][913]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_JumpyF4CDBDE849D4CEC0D81B6EBB048188FE.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.49.44:764][913]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.215 ms (total: 2.45 sec)
+[2025.02.04-07.49.44:812][913]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.49.44:812][913]LogContentValidation: Enabled validators:
+[2025.02.04-07.49.44:812][913]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.49.44:812][913]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.49.44:812][913]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.49.44:812][913]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.49.44:812][913]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.49.45:446][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.02.04-07.49.45:815][  9]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.49.45:844][  9]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.49.45:854][  9]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.49.45:854][  9]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.49.45:854][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.49.45:872][  9]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.49.45:872][  9]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_JumpyC5E4C8CA4F049ECCD05B0DBFC1B2E8BB.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.49.45:883][  9]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.183 ms (total: 2.52 sec)
+[2025.02.04-07.49.45:928][  9]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.49.45:928][  9]LogContentValidation: Enabled validators:
+[2025.02.04-07.49.45:928][  9]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.49.45:928][  9]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.49.45:928][  9]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.49.45:928][  9]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.49.45:928][  9]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.49.46:282][ 45]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.04-07.49.46:296][ 45]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.04-07.49.46:297][ 45]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.04-07.49.46:301][ 45]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 4.140 ms (total: 37.895 ms)
+[2025.02.04-07.49.46:301][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.04-07.49.46:301][ 45]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.49.46:308][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006369s)
+[2025.02.04-07.49.46:308][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006396s)
+[2025.02.04-07.49.46:325][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.02.04-07.49.46:327][ 45]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.04-07.49.46:328][ 45]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.04-07.49.46:328][ 45]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.04-07.49.46:328][ 45]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.04-07.49.46:328][ 45]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.04-07.49.46:334][ 45]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.04-07.49.46:334][ 45]LogWorldPartition: Display: WorldPartition initialize took 5.375 ms (total: 403.322 ms)
+[2025.02.04-07.49.46:334][ 45]LogPlayLevel: PIE: World Init took: (0.006423s)
+[2025.02.04-07.49.46:345][ 45]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.02.04-07.49.46:345][ 45]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.04-07.49.46:345][ 45]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.04-07.49.46:345][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.04-07.49.46:345][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.04-07.49.46:345][ 45]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.04-07.49.46:345][ 45]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.04-07.49.46:345][ 45]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.04-07.49.46:345][ 45]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.04-07.49.46:345][ 45]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.04-07.49.46:345][ 45]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.04-07.49.46:345][ 45]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.04-07.49.46:347][ 45]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.04-07.49.46:359][ 45]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.02.04-07.49.46:359][ 45]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.04-07.49.46:359][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.04-07.49.46:359][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.04-07.49.46:360][ 45]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.02.04-07.49.46:360][ 45]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.02.04-07.49.46:361][ 45]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.02.04-07.49.46:361][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.02.04-07.49.46:361][ 45]LogInit: FAudioDevice initialized with ID 9.
+[2025.02.04-07.49.46:361][ 45]LogAudio: Display: Audio Device (ID: 9) registered with world 'DefaultMap'.
+[2025.02.04-07.49.46:362][ 45]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.02.04-07.49.46:394][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.49.46:394][ 45]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.04-07.49.46:395][ 45]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.04-14.49.46
+[2025.02.04-07.49.46:396][ 45]LogWorld: Bringing up level for play took: 0.001475
+[2025.02.04-07.49.46:398][ 45]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.02.04-07.49.46:402][ 45]LogStreaming: Display: FlushAsyncLoading(): 59 QueuedPackages, 0 AsyncPackages
+[2025.02.04-07.49.46:538][ 45]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.04-07.49.46:561][ 45]PIE: Server logged in
+[2025.02.04-07.49.46:562][ 45]PIE: Play in editor total start time 0.271 seconds.
+[2025.02.04-07.49.53:431][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.49.53:431][469]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.49.53:431][469]LogSlate: Window 'JumpyCPP Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.04-07.49.53:442][469]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.04-07.49.53:444][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.49.53:444][469]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.04-07.49.53:444][469]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.04-07.49.53:444][469]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.04-07.49.53:444][469]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.04-07.49.53:448][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.04-07.49.53:454][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.49.53:473][469]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.04-07.49.53:474][469]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.02.04-07.49.53:474][469]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.02.04-07.49.53:475][469]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.02.04-07.49.53:487][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.02.04-07.49.53:552][470]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.02.04-07.50.05:951][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.50.06:005][172]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.50.06:014][172]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.50.06:014][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.50.06:014][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.50.06:031][172]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.50.06:032][172]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_Jumpy38D34E3745CCA2414B9980A4E91CDFCA.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.50.06:050][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.675 ms (total: 2.62 sec)
+[2025.02.04-07.50.06:099][172]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.50.06:099][172]LogContentValidation: Enabled validators:
+[2025.02.04-07.50.06:099][172]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.50.06:099][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.50.06:099][172]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.50.06:099][172]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.50.06:099][172]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.50.06:890][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.02.04-07.50.07:205][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.04-07.50.07:252][281]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Animation/ABP_Jumpy] ([2] browsable assets)...
+[2025.02.04-07.50.07:262][281]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy]
+[2025.02.04-07.50.07:262][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Animation/ABP_Jumpy]
+[2025.02.04-07.50.07:262][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Animation/ABP_Jumpy" FILE="D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset" SILENT=true
+[2025.02.04-07.50.07:279][281]LogSavePackage: Moving output files for package: /Game/Blueprints/Animation/ABP_Jumpy
+[2025.02.04-07.50.07:280][281]LogSavePackage: Moving 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Saved/ABP_JumpyC93EB17147C9BA25D4090DAD7ED0A70C.tmp' to 'D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/Content/Blueprints/Animation/ABP_Jumpy.uasset'
+[2025.02.04-07.50.07:290][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.769 ms (total: 2.70 sec)
+[2025.02.04-07.50.07:351][281]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.04-07.50.07:351][281]LogContentValidation: Enabled validators:
+[2025.02.04-07.50.07:351][281]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.04-07.50.07:351][281]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.04-07.50.07:351][281]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.04-07.50.07:351][281]LogContentValidation: Display: Validating asset /Game/Blueprints/Animation/ABP_Jumpy.ABP_Jumpy
+[2025.02.04-07.50.07:351][281]AssetCheck: /Game/Blueprints/Animation/ABP_Jumpy Validating asset
+[2025.02.04-07.50.08:026][357]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.04-07.50.08:040][357]LogContentBundle: [DefaultMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.02.04-07.50.08:040][357]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' started...
+[2025.02.04-07.50.08:044][357]LogWorldPartition: Display: GenerateStreaming for 'DefaultMap' took 4.240 ms (total: 42.135 ms)
+[2025.02.04-07.50.08:045][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.04-07.50.08:045][357]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.50.08:052][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006430s)
+[2025.02.04-07.50.08:052][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultMap.DefaultMap to /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap (0.006469s)
+[2025.02.04-07.50.08:068][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.02.04-07.50.08:070][357]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.02.04-07.50.08:071][357]LogWorldPartition: ULevel::OnLevelLoaded(DefaultMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.04-07.50.08:071][357]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.04-07.50.08:071][357]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.04-07.50.08:071][357]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.04-07.50.08:076][357]LogContentBundle: [DefaultMap(Standalone)] Creating new container.
+[2025.02.04-07.50.08:076][357]LogWorldPartition: Display: WorldPartition initialize took 5.352 ms (total: 408.675 ms)
+[2025.02.04-07.50.08:076][357]LogPlayLevel: PIE: World Init took: (0.006589s)
+[2025.02.04-07.50.08:086][357]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.02.04-07.50.08:086][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.04-07.50.08:086][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.04-07.50.08:086][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.04-07.50.08:086][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.04-07.50.08:086][357]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.04-07.50.08:086][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.04-07.50.08:086][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.04-07.50.08:086][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.04-07.50.08:086][357]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.04-07.50.08:086][357]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.04-07.50.08:086][357]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.04-07.50.08:088][357]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.04-07.50.08:101][357]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2025.02.04-07.50.08:102][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.04-07.50.08:102][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.04-07.50.08:102][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.04-07.50.08:102][357]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.02.04-07.50.08:102][357]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.02.04-07.50.08:104][357]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.02.04-07.50.08:104][357]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.02.04-07.50.08:104][357]LogInit: FAudioDevice initialized with ID 10.
+[2025.02.04-07.50.08:104][357]LogAudio: Display: Audio Device (ID: 10) registered with world 'DefaultMap'.
+[2025.02.04-07.50.08:104][357]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.02.04-07.50.08:152][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.50.08:152][357]LogLoad: Game class is 'BP_JumpyGameMode_C'
+[2025.02.04-07.50.08:155][357]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 0) at 2025.02.04-14.50.08
+[2025.02.04-07.50.08:155][357]LogWorld: Bringing up level for play took: 0.001682
+[2025.02.04-07.50.08:157][357]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.02.04-07.50.08:162][357]LogStreaming: Display: FlushAsyncLoading(): 59 QueuedPackages, 0 AsyncPackages
+[2025.02.04-07.50.08:292][357]LogTemp: Warning: Sum 5.400000 + 3 is: 8.400000
+[2025.02.04-07.50.08:316][357]PIE: Server logged in
+[2025.02.04-07.50.08:317][357]PIE: Play in editor total start time 0.283 seconds.
+[2025.02.04-07.50.26:107][490]LogTemp: Warning: ItemCoin :1
+[2025.02.04-07.50.26:108][490]LogTemp: Warning: PlayerCoin: 1
+[2025.02.04-07.50.26:419][510]LogTemp: Warning: ItemCoin :2
+[2025.02.04-07.50.26:419][510]LogTemp: Warning: PlayerCoin: 3
+[2025.02.04-07.50.26:714][529]LogTemp: Warning: ItemCoin :3
+[2025.02.04-07.50.26:714][529]LogTemp: Warning: PlayerCoin: 6
+[2025.02.04-07.50.27:011][547]LogTemp: Warning: ItemCoin :4
+[2025.02.04-07.50.27:011][547]LogTemp: Warning: PlayerCoin: 10
+[2025.02.04-07.50.27:310][565]LogTemp: Warning: ItemCoin :5
+[2025.02.04-07.50.27:310][565]LogTemp: Warning: PlayerCoin: 15
+[2025.02.04-07.50.27:604][584]LogTemp: Warning: ItemCoin :6
+[2025.02.04-07.50.27:604][584]LogTemp: Warning: PlayerCoin: 21
+[2025.02.04-07.50.28:455][639]LogTemp: Warning: ItemCoin :7
+[2025.02.04-07.50.28:456][639]LogTemp: Warning: PlayerCoin: 28
+[2025.02.04-07.50.28:764][659]LogTemp: Warning: ItemCoin :8
+[2025.02.04-07.50.28:764][659]LogTemp: Warning: PlayerCoin: 36
+[2025.02.04-07.50.29:062][678]LogTemp: Warning: ItemCoin :9
+[2025.02.04-07.50.29:062][678]LogTemp: Warning: PlayerCoin: 45
+[2025.02.04-07.50.29:370][698]LogTemp: Warning: ItemCoin :10
+[2025.02.04-07.50.29:370][698]LogTemp: Warning: PlayerCoin: 55
+[2025.02.04-07.50.29:662][717]LogTemp: Warning: ItemCoin :11
+[2025.02.04-07.50.29:662][717]LogTemp: Warning: PlayerCoin: 66
+[2025.02.04-07.50.30:300][758]LogTemp: Warning: ItemCoin :12
+[2025.02.04-07.50.30:301][758]LogTemp: Warning: PlayerCoin: 78
+[2025.02.04-07.50.30:596][777]LogTemp: Warning: ItemCoin :13
+[2025.02.04-07.50.30:596][777]LogTemp: Warning: PlayerCoin: 91
+[2025.02.04-07.50.30:899][795]LogTemp: Warning: ItemCoin :14
+[2025.02.04-07.50.30:899][795]LogTemp: Warning: PlayerCoin: 105
+[2025.02.04-07.50.31:205][814]LogTemp: Warning: ItemCoin :15
+[2025.02.04-07.50.31:205][814]LogTemp: Warning: PlayerCoin: 120
+[2025.02.04-07.50.31:498][833]LogTemp: Warning: ItemCoin :16
+[2025.02.04-07.50.31:498][833]LogTemp: Warning: PlayerCoin: 136
+[2025.02.04-07.50.32:155][875]LogTemp: Warning: ItemCoin :17
+[2025.02.04-07.50.32:155][875]LogTemp: Warning: PlayerCoin: 153
+[2025.02.04-07.50.32:824][917]LogTemp: Warning: ItemCoin :18
+[2025.02.04-07.50.32:824][917]LogTemp: Warning: PlayerCoin: 171
+[2025.02.04-07.50.33:762][978]LogTemp: Warning: ItemCoin :19
+[2025.02.04-07.50.33:762][978]LogTemp: Warning: PlayerCoin: 190
+[2025.02.04-07.50.34:064][997]LogTemp: Warning: ItemCoin :20
+[2025.02.04-07.50.34:064][997]LogTemp: Warning: PlayerCoin: 210
+[2025.02.04-07.50.34:365][ 16]LogTemp: Warning: ItemCoin :21
+[2025.02.04-07.50.34:365][ 16]LogTemp: Warning: PlayerCoin: 231
+[2025.02.04-07.50.34:659][ 35]LogTemp: Warning: ItemCoin :22
+[2025.02.04-07.50.34:660][ 35]LogTemp: Warning: PlayerCoin: 253
+[2025.02.04-07.50.34:921][ 50]LogTexture: Display: Waiting for textures to be ready 1/24 (/Memory/UEDPIE_0_BCZ6GOC1OBJ4VKGAXE5DXE0MZ_InstanceOf_/Game/__ExternalActors__/Levels/DefaultMap/6/QG/MFKY1GJB26ECVWY39ZRZK7) ...
+[2025.02.04-07.50.34:964][ 52]LogTemp: Warning: ItemCoin :23
+[2025.02.04-07.50.34:964][ 52]LogTemp: Warning: PlayerCoin: 276
+[2025.02.04-07.50.35:254][ 71]LogTemp: Warning: ItemCoin :24
+[2025.02.04-07.50.35:254][ 71]LogTemp: Warning: PlayerCoin: 300
+[2025.02.04-07.50.35:778][105]LogTemp: Warning: ItemCoin :25
+[2025.02.04-07.50.35:778][105]LogTemp: Warning: PlayerCoin: 325
+[2025.02.04-07.50.36:082][123]LogTemp: Warning: ItemCoin :26
+[2025.02.04-07.50.36:082][123]LogTemp: Warning: PlayerCoin: 351
+[2025.02.04-07.50.36:379][142]LogTemp: Warning: ItemCoin :27
+[2025.02.04-07.50.36:379][142]LogTemp: Warning: PlayerCoin: 378
+[2025.02.04-07.50.36:690][162]LogTemp: Warning: ItemCoin :28
+[2025.02.04-07.50.36:690][162]LogTemp: Warning: PlayerCoin: 406
+[2025.02.04-07.50.36:985][181]LogTemp: Warning: ItemCoin :29
+[2025.02.04-07.50.36:985][181]LogTemp: Warning: PlayerCoin: 435
+[2025.02.04-07.50.37:670][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.04-07.50.37:670][221]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_DefaultMap
+[2025.02.04-07.50.37:671][221]LogSlate: Window 'JumpyCPP Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.04-07.50.37:681][221]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.04-07.50.37:682][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.50.37:683][221]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_DefaultMap.DefaultMap
+[2025.02.04-07.50.37:683][221]LogContentBundle: [DefaultMap(Standalone)] Deleting container.
+[2025.02.04-07.50.37:683][221]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.02.04-07.50.37:683][221]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.02.04-07.50.37:687][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.04-07.50.37:692][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.04-07.50.37:714][221]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.04-07.50.37:715][221]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.02.04-07.50.37:715][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.02.04-07.50.37:716][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.02.04-07.50.37:729][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2025.02.04-07.50.37:793][222]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.02.04-07.54.21:944][189]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1017.012695
+[2025.02.04-07.54.23:275][193]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.04-07.54.23:275][193]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1018.014771, Update Interval: 338.165833
+[2025.02.04-08.00.09:682][232]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1364.750000
+[2025.02.04-08.00.11:005][236]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.04-08.00.11:005][236]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1365.747437, Update Interval: 338.561340
+[2025.02.04-08.06.06:066][301]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1721.133789
+[2025.02.04-08.06.07:400][305]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.04-08.06.07:400][305]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1722.136841, Update Interval: 343.657349
+[2025.02.04-08.12.29:793][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2104.862793
+[2025.02.04-08.12.31:126][456]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.04-08.12.31:126][457]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2105.863037, Update Interval: 347.374481

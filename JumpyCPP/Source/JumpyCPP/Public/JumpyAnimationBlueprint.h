@@ -37,4 +37,7 @@ public:
 
 	UPROPERTY(BlueprintReadOnly);
 	bool isInAir;
+
+	UPROPERTY(BlueprintReadOnly);
+	bool MovementInputBool;
 };
