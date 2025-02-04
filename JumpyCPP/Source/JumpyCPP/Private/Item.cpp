@@ -7,23 +7,14 @@
 // Sets default values
 AItem::AItem()
 {
-	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-
-		// Tạo một SceneComponent làm RootComponent
-	//USceneComponent* Root = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
-	//RootComponent = Root;
-
-	//// Tạo các component khác và gắn chúng vào RootComponent
-	//UStaticMeshComponent* Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
-	//Mesh->SetupAttachment(RootComponent);
-
 	PrimaryActorTick.bCanEverTick = true;
 
 	Box = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollision"));
 	Orb = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Orb"));
 	Ring = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Ring"));
 
-	Box->SetupAttachment(GetRootComponent());
+	//Box->SetupAttachment(GetRootComponent());
+	SetRootComponent(Box);
 	Orb->SetupAttachment(Box);
 	Ring->SetupAttachment(Orb);
 }

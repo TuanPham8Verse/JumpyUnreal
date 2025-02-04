@@ -6,6 +6,7 @@
 #include "Animation/AnimInstance.h"
 #include "JumpyCharacter.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "JumpyAnimationBlueprint.generated.h"
 
 /**
@@ -23,6 +24,9 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	AJumpyCharacter* jumpyCharacter;
 
-	//UPROPERTY(BlueprintReadOnly)
-	//UCharacterMovementComponent* 
+	UPROPERTY(BlueprintReadOnly)
+	UCharacterMovementComponent* JumpyCharacterMovement;
+
+	UPROPERTY(BlueprintReadOnly)
+	float GroundSpeed;
 };
