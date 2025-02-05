@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\fan.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\jumpycppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpycpp\\definitions.jumpycpp.h",
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\source\\jumpycpp\\public\\fan.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\arrowcomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\arrowcomponent.generated.h",
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\fan.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

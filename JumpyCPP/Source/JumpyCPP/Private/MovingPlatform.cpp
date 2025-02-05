@@ -29,8 +29,6 @@ void AMovingPlatform::BeginPlay()
 	for (size_t i = 0; i < NumberSplinePoints; i++)
 	{
 		FVector splinePointLocation = Spline->GetLocationAtSplinePoint(i, ESplineCoordinateSpace::Local);
-		UE_LOG(LogTemp, Warning, TEXT("The vector value is: %s"), *splinePointLocation.ToString());
-
 		Interp->AddControlPointPosition(splinePointLocation);
 	}
 
