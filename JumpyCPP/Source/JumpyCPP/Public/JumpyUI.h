@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/TextBlock.h"
+#include "Components/ProgressBar.h"
 #include "JumpyUI.generated.h"
 
 /**
@@ -22,7 +23,17 @@ public:
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	UTextBlock* MaxHeightTextBlock;
 
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UProgressBar* MaxHeightProgressBar;
+
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	UTextBlock* CoinTextBlock;
+
 	void SetHeight(int32 height);
+	
+	void SetCoin(int32 amount);
 
 	int32 MaxHeight;
+
+	int32 Coin;
 };

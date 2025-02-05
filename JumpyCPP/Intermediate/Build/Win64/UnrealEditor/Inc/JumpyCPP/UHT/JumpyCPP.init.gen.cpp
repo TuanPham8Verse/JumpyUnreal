@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeJumpyCPP_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x06C53DB0,
+				0x97678CA8,
 				0xB9310702,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeJumpyCPP_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_JumpyCPP.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_JumpyCPP(Z_Construct_UPackage__Script_JumpyCPP, TEXT("/Script/JumpyCPP"), Z_Registration_Info_UPackage__Script_JumpyCPP, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x06C53DB0, 0xB9310702));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_JumpyCPP(Z_Construct_UPackage__Script_JumpyCPP, TEXT("/Script/JumpyCPP"), Z_Registration_Info_UPackage__Script_JumpyCPP, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x97678CA8, 0xB9310702));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

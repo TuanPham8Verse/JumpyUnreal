@@ -26,11 +26,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY()
-	int Coin = 0;
-
-	UPROPERTY()
-	int IndexCoin = 0;
+	UJumpyUI* PlayerHUD;
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<UUserWidget> widgetSubclass;
@@ -51,7 +47,6 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "mInput")
 	UInputAction* IAJumpAction;
 
-	UJumpyUI* PlayerHUD;
 private:
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArm;
@@ -71,5 +66,5 @@ private:
 
 	void Jumping(const FInputActionValue& Value);
 
-	void SpawnItem(float y);
+	void SpawnItem(float y, int index);
 };

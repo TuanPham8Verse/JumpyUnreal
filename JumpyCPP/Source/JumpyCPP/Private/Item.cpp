@@ -36,10 +36,10 @@ void AItem::OnPlayerEnter(UPrimitiveComponent* OverlappedComponent, AActor* Othe
 	AJumpyCharacter* Player = Cast<AJumpyCharacter>(OtherActor);
 	if (Player)
 	{
-		Player->Coin = Player->Coin + ItemCoin;
+		Player->PlayerHUD->SetCoin(ItemCoin);
 
-		UE_LOG(LogTemp, Warning, TEXT("ItemCoin :%d"), ItemCoin);
-		UE_LOG(LogTemp, Warning, TEXT("PlayerCoin: %d"), Player->Coin);
+		//UE_LOG(LogTemp, Warning, TEXT("ItemCoin :%d"), ItemCoin);
+		//UE_LOG(LogTemp, Warning, TEXT("PlayerCoin: %d"), Player->PlayerHUD->Coin);
 
 		Destroy();
 	}

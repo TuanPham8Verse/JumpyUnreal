@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeJumpyUI() {}
 // Begin Cross Module References
 JUMPYCPP_API UClass* Z_Construct_UClass_UJumpyUI();
 JUMPYCPP_API UClass* Z_Construct_UClass_UJumpyUI_NoRegister();
+UMG_API UClass* Z_Construct_UClass_UProgressBar_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UUserWidget();
 UPackage* Z_Construct_UPackage__Script_JumpyCPP();
@@ -48,9 +49,23 @@ struct Z_Construct_UClass_UJumpyUI_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/JumpyUI.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxHeightProgressBar_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "JumpyUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/JumpyUI.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CoinTextBlock_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "JumpyUI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/JumpyUI.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_HeightText;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MaxHeightTextBlock;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MaxHeightProgressBar;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_CoinTextBlock;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -60,9 +75,13 @@ struct Z_Construct_UClass_UJumpyUI_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UJumpyUI_Statics::NewProp_HeightText = { "HeightText", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UJumpyUI, HeightText), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HeightText_MetaData), NewProp_HeightText_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UJumpyUI_Statics::NewProp_MaxHeightTextBlock = { "MaxHeightTextBlock", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UJumpyUI, MaxHeightTextBlock), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxHeightTextBlock_MetaData), NewProp_MaxHeightTextBlock_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UJumpyUI_Statics::NewProp_MaxHeightProgressBar = { "MaxHeightProgressBar", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UJumpyUI, MaxHeightProgressBar), Z_Construct_UClass_UProgressBar_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxHeightProgressBar_MetaData), NewProp_MaxHeightProgressBar_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UJumpyUI_Statics::NewProp_CoinTextBlock = { "CoinTextBlock", nullptr, (EPropertyFlags)0x0010000000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UJumpyUI, CoinTextBlock), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CoinTextBlock_MetaData), NewProp_CoinTextBlock_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UJumpyUI_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyUI_Statics::NewProp_HeightText,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyUI_Statics::NewProp_MaxHeightTextBlock,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyUI_Statics::NewProp_MaxHeightProgressBar,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UJumpyUI_Statics::NewProp_CoinTextBlock,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UJumpyUI_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UJumpyUI_Statics::DependentSingletons[])() = {
@@ -106,10 +125,10 @@ UJumpyUI::~UJumpyUI() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyUI_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UJumpyUI, UJumpyUI::StaticClass, TEXT("UJumpyUI"), &Z_Registration_Info_UClass_UJumpyUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UJumpyUI), 2562056692U) },
+		{ Z_Construct_UClass_UJumpyUI, UJumpyUI::StaticClass, TEXT("UJumpyUI"), &Z_Registration_Info_UClass_UJumpyUI, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UJumpyUI), 1314265242U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyUI_h_2219499647(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyUI_h_494182198(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyUI_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyUI_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

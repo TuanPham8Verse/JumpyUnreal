@@ -66,7 +66,7 @@ void AJumpyCharacter::BeginPlay()
 
 	for (int i = 0; i < 100; i++) 
 	{
-		SpawnItem(i * 150);
+		SpawnItem(i * 150, i+1);
 	}
 }
 
@@ -139,8 +139,10 @@ void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 	}
 }
 
+float IndexCoin;
+
 // Function to spawn item
-void AJumpyCharacter::SpawnItem(float y)
+void AJumpyCharacter::SpawnItem(float y, int index)
 {
 	if (ItemClass)
 	{
@@ -152,8 +154,7 @@ void AJumpyCharacter::SpawnItem(float y)
 
 		// Spawn the item
 		AItem* SpawnedItem = GetWorld()->SpawnActor<AItem>(ItemClass, spawnLocation, SpawnRotation);
-		IndexCoin++;
-		SpawnedItem->ItemCoin = IndexCoin;
+		SpawnedItem->ItemCoin = index;
 	}
 }
 
