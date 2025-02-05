@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\movingplatform.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\jumpycppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpycpp\\definitions.jumpycpp.h",
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\source\\jumpycpp\\public\\movingplatform.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\splinecomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\splinecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\interptomovementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\interptomovementcomponent.generated.h",
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\movingplatform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

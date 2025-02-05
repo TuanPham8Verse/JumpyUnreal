@@ -54,6 +54,9 @@
     <ClCompile Include="..\..\Source\JumpyCPP\Private\JumpyUI.cpp">
       <Filter>Source\JumpyCPP\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\JumpyCPP\Private\MovingPlatform.cpp">
+      <Filter>Source\JumpyCPP\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\JumpyCPP\Public">
       <UniqueIdentifier>{A148DD59-164C-3F6C-8304-3BE97A7903F6}</UniqueIdentifier>
     </Filter>
@@ -67,6 +70,9 @@
       <Filter>Source\JumpyCPP\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\JumpyCPP\Public\JumpyUI.h">
+      <Filter>Source\JumpyCPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\JumpyCPP\Public\MovingPlatform.h">
       <Filter>Source\JumpyCPP\Public</Filter>
     </ClInclude>
   </ItemGroup>
