@@ -52,7 +52,7 @@ void AFan::OnPlayerExit(UPrimitiveComponent* OverlappedComponent, AActor* OtherA
 		GetWorldTimerManager().ClearTimer(TimerHandle);
 	}
 }
-
+//
 void AFan::ShootPlayer()
 {
 	Player->LaunchCharacter(ForceDirection->GetForwardVector() * Power, false, true);
