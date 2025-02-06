@@ -47,6 +47,9 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "mInput")
 	UInputAction* IAJumpAction;
 
+	UPROPERTY(EditAnywhere, Category = "mInput")
+	UInputAction* IARunFast;
+
 private:
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArm;
@@ -65,6 +68,8 @@ private:
 	void Look(const FInputActionValue& Value);
 
 	void Jumping(const FInputActionValue& Value);
+
+	void RunFast(const FInputActionValue& Value);
 
 	void SpawnItem(float y, int index);
 };

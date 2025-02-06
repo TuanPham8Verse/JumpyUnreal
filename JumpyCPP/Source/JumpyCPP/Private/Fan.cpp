@@ -28,7 +28,34 @@ AFan::AFan()
 void AFan::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	Box->OnComponentBeginOverlap.AddDynamic(this, &AFan::OnPlayerEnter);
+	Box->OnComponentEndOverlap.AddDynamic(this, &AFan::OnPlayerExit);
+}
+
+void AFan::OnPlayerEnter(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	AJumpyCharacter* TempPlayer = Cast<AJumpyCharacter>(OtherActor);
+	if (TempPlayer)
+	{
+		Player = TempPlayer;
+
+		GetWorldTimerManager().SetTimer(TimerHandle, this, &AFan::ShootPlayer, 0.01, true);
+	}
+}
+
+void AFan::OnPlayerExit(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	AJumpyCharacter* TempPlayer = Cast<AJumpyCharacter>(OtherActor);
+	if (TempPlayer)
+	{
+		GetWorldTimerManager().ClearTimer(TimerHandle);
+	}
+}
+
+void AFan::ShootPlayer()
+{
+	Player->LaunchCharacter(ForceDirection->GetForwardVector() * Power, false, true);
 }
 
 // Called every frame

@@ -111,6 +111,25 @@ void AJumpyCharacter::Jumping(const FInputActionValue& Value)
 	}
 }
 
+float originalSpeed = 0;
+
+void AJumpyCharacter::RunFast(const FInputActionValue& Value)
+{
+	bool RCValue = Value.Get<bool>();
+
+	if (RCValue)
+	{
+		originalSpeed = GetCharacterMovement()->MaxWalkSpeed;
+		GetCharacterMovement()->MaxWalkSpeed = 1500;
+		//UE_LOG(LogTemp, Warning, TEXT("Run Faster: %f"), GetCharacterMovement()->MaxWalkSpeed);
+	}
+	else 
+	{
+		GetCharacterMovement()->MaxWalkSpeed = originalSpeed;
+		//UE_LOG(LogTemp, Warning, TEXT("Run Faster Original: %f"), GetCharacterMovement()->MaxWalkSpeed);
+	}
+}
+
 // Called every frame
 void AJumpyCharacter::Tick(float DeltaTime)
 {
@@ -136,6 +155,11 @@ void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 		EnhancedInputComponent->BindAction(IALookAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Look);
 
 		EnhancedInputComponent->BindAction(IAJumpAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Jumping);
+
+		EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Started, this, &AJumpyCharacter::RunFast);
+
+		EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Completed, this, &AJumpyCharacter::RunFast);
+
 	}
 }
 
