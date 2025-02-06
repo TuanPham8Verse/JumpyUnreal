@@ -29,6 +29,14 @@ void AFan::BeginPlay()
 {
 	Super::BeginPlay();
 
+	ACharacter* Character = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	AJumpyCharacter* TempPlayer = Cast<AJumpyCharacter>(Character);
+
+	if (TempPlayer)
+	{
+		Player = TempPlayer;
+	}
+
 	Box->OnComponentBeginOverlap.AddDynamic(this, &AFan::OnPlayerEnter);
 	Box->OnComponentEndOverlap.AddDynamic(this, &AFan::OnPlayerExit);
 }
@@ -38,8 +46,6 @@ void AFan::OnPlayerEnter(UPrimitiveComponent* OverlappedComponent, AActor* Other
 	AJumpyCharacter* TempPlayer = Cast<AJumpyCharacter>(OtherActor);
 	if (TempPlayer)
 	{
-		Player = TempPlayer;
-
 		GetWorldTimerManager().SetTimer(TimerHandle, this, &AFan::ShootPlayer, 0.01, true);
 	}
 }

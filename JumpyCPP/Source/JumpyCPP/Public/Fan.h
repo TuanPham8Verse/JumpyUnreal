@@ -8,6 +8,7 @@
 #include "Components/ArrowComponent.h"
 #include "NiagaraComponent.h"
 #include "JumpyCharacter.h"
+#include "Kismet/GameplayStatics.h"
 #include "Fan.generated.h"
 
 UCLASS()

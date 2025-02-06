@@ -17,12 +17,12 @@ struct FHitResult;
 #endif
 #define JUMPYCPP_Fan_generated_h
 
-#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnPlayerExit); \
 	DECLARE_FUNCTION(execOnPlayerEnter);
 
 
-#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFan(); \
 	friend struct Z_Construct_UClass_AFan_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(AFan)
 
 
-#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AFan(AFan&&); \
@@ -43,13 +43,13 @@ public: \
 	NO_API virtual ~AFan();
 
 
-#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_13_PROLOG
-#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_16_GENERATED_BODY \
+#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_14_PROLOG
+#define FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_16_INCLASS_NO_PURE_DECLS \
-	FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_16_ENHANCED_CONSTRUCTORS \
+	FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_17_INCLASS_NO_PURE_DECLS \
+	FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

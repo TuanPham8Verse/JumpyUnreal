@@ -37,6 +37,7 @@
 /FUNCTIONPADMIN:6
 /NATVIS:"..\Plugins\FX\Niagara\Intermediate\Build\Win64\x64\UnrealEditor\Development\Niagara\Niagara.natvis"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\JumpyCPPEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\Elevator.gen.cpp.obj"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\Fan.gen.cpp.obj"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\Item.gen.cpp.obj"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\JumpyAnimationBlueprint.gen.cpp.obj"
@@ -50,6 +51,7 @@
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\JumpyCharacter.cpp.obj"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\JumpyUI.cpp.obj"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\MovingPlatform.cpp.obj"
+"D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\Elevator.cpp.obj"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\Fan.cpp.obj"
 "D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\Build\Win64\x64\UnrealEditor\Development\JumpyCPP\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"

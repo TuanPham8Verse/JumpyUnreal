@@ -262,6 +262,9 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\JumpyCPP\JumpyCPP.h"/>
+    <ClCompile Include="..\..\Source\JumpyCPP\Private\Elevator.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\JumpyCPP\Private\Fan.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -280,6 +283,7 @@
     <ClCompile Include="..\..\Source\JumpyCPP\Private\MovingPlatform.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\JumpyCPP\Public\Elevator.h"/>
     <ClInclude Include="..\..\Source\JumpyCPP\Public\Fan.h"/>
     <ClInclude Include="..\..\Source\JumpyCPP\Public\Item.h"/>
     <ClInclude Include="..\..\Source\JumpyCPP\Public\JumpyAnimationBlueprint.h"/>
