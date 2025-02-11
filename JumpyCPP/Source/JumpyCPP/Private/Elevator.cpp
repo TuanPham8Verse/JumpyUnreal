@@ -6,13 +6,15 @@
 // Sets default values
 AElevator::AElevator()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	Elevator = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ElevatorMesh"));
 	Box = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollision"));
 
-	Elevator->SetupAttachment(GetRootComponent());
+	SetRootComponent(Root);
+	Elevator->SetupAttachment(Root);
 	Box->SetupAttachment(Elevator);
 }
 
@@ -20,11 +22,11 @@ AElevator::AElevator()
 void AElevator::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	Box->OnComponentBeginOverlap.AddDynamic(this, &AElevator::OnPlayerEnter);
 	Box->OnComponentEndOverlap.AddDynamic(this, &AElevator::OnPlayerExit);
 
-	GetWorldTimerManager().SetTimer(TimerForStayingDown, this, &AElevator::SetGoToEndLocation, TimerStayDown, false);
+	/*GetWorldTimerManager().SetTimer(TimerForStayingDown, this, &AElevator::SetGoToEndLocation, TimerStayDown, false);*/
 }
 
 void AElevator::OnPlayerEnter(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -33,7 +35,17 @@ void AElevator::OnPlayerEnter(UPrimitiveComponent* OverlappedComponent, AActor* 
 
 	if (player)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("HEHEHE"));
+		if (CheckIsExit)
+		{
+			if (CheckIsUse)
+			{
+				UE_LOG(LogTemp, Warning, TEXT("OnPlayerEnter"));
+
+				GetWorldTimerManager().SetTimer(TimerForStayingDown, this, &AElevator::SetGoToEndLocation, TimerStayDown, false);
+				CheckIsUse = false;
+			}
+			CheckIsExit = false;
+		}
 	}
 }
 
@@ -43,13 +55,24 @@ void AElevator::OnPlayerExit(UPrimitiveComponent* OverlappedComponent, AActor* O
 
 	if (player)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("HUHUHU"));
+		GetWorldTimerManager().ClearTimer(TimerForStayingDown);
+		CheckIsUse = true;
+		CheckIsExit = true;
 	}
 }
-
+//
 void AElevator::SetGoToEndLocation()
 {
-	UE_LOG(LogTemp, Warning, TEXT("SetGoToEndLocation"));
+	if (GoToEndLocation && !GoToStartLocation)
+	{
+		GoToEndLocation = false;
+		GoToStartLocation = true;
+	}
+	else
+	{
+		GoToEndLocation = true;
+		GoToStartLocation = false;
+	}
 }
 
 // Called every frame
@@ -57,5 +80,25 @@ void AElevator::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (GoToEndLocation && !GoToStartLocation)
+	{
+		FVector TempLocation = UKismetMathLibrary::VInterpTo(Elevator->GetRelativeLocation(), EndLocation, DeltaTime, 2);
+		Elevator->SetRelativeLocation(TempLocation);
+		float distanceToEndLocation = UKismetMathLibrary::Vector_Distance(TempLocation, EndLocation);
+		if (distanceToEndLocation < 20)
+		{
+			CheckIsExit = true;
+		}
+	}
+	else if (!GoToEndLocation && GoToStartLocation)
+	{
+		FVector TempLocation = UKismetMathLibrary::VInterpTo(Elevator->GetRelativeLocation(), StartLocation, DeltaTime, 2);
+		Elevator->SetRelativeLocation(TempLocation);
+		float distanceToEndLocation = UKismetMathLibrary::Vector_Distance(TempLocation, EndLocation);
+		if (distanceToEndLocation < 20)
+		{
+			CheckIsExit = true;
+		}
+	}
 }
 

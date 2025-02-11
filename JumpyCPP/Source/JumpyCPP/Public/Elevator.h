@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
 #include "JumpyCharacter.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Elevator.generated.h"
 
 UCLASS()
@@ -31,6 +32,9 @@ protected:
 
 private:
 	UPROPERTY(VisibleAnywhere)
+	USceneComponent* Root;
+
+	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* Elevator;
 
 	UPROPERTY(VisibleAnywhere)
@@ -48,5 +52,11 @@ private:
 	void SetGoToEndLocation();
 
 	UPROPERTY(EditAnywhere)
-	float TimerStayDown;
+	float TimerStayDown = 2;
+
+	bool GoToEndLocation = false;
+	bool GoToStartLocation = false;
+
+	bool CheckIsUse = true;
+	bool CheckIsExit = true;
 };

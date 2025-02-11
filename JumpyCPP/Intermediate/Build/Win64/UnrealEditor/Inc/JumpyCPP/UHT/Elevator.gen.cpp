@@ -16,6 +16,7 @@ ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 JUMPYCPP_API UClass* Z_Construct_UClass_AElevator();
@@ -229,6 +230,11 @@ struct Z_Construct_UClass_AElevator_Statics
 		{ "MakeEditWidget", "TRUE" },
 		{ "ModuleRelativePath", "Public/Elevator.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[] = {
+		{ "Category", "Elevator" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Elevator.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Elevator_MetaData[] = {
 		{ "Category", "Elevator" },
 		{ "EditInline", "true" },
@@ -246,6 +252,7 @@ struct Z_Construct_UClass_AElevator_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_StartLocation;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_EndLocation;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Root;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Elevator;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Box;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_TimerStayDown;
@@ -264,12 +271,14 @@ struct Z_Construct_UClass_AElevator_Statics
 };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AElevator_Statics::NewProp_StartLocation = { "StartLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AElevator, StartLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StartLocation_MetaData), NewProp_StartLocation_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AElevator_Statics::NewProp_EndLocation = { "EndLocation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AElevator, EndLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EndLocation_MetaData), NewProp_EndLocation_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AElevator_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AElevator, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Root_MetaData), NewProp_Root_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AElevator_Statics::NewProp_Elevator = { "Elevator", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AElevator, Elevator), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Elevator_MetaData), NewProp_Elevator_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AElevator_Statics::NewProp_Box = { "Box", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AElevator, Box), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Box_MetaData), NewProp_Box_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AElevator_Statics::NewProp_TimerStayDown = { "TimerStayDown", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AElevator, TimerStayDown), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TimerStayDown_MetaData), NewProp_TimerStayDown_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AElevator_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AElevator_Statics::NewProp_StartLocation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AElevator_Statics::NewProp_EndLocation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AElevator_Statics::NewProp_Root,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AElevator_Statics::NewProp_Elevator,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AElevator_Statics::NewProp_Box,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AElevator_Statics::NewProp_TimerStayDown,
@@ -315,10 +324,10 @@ AElevator::~AElevator() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AElevator, AElevator::StaticClass, TEXT("AElevator"), &Z_Registration_Info_UClass_AElevator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AElevator), 3595513425U) },
+		{ Z_Construct_UClass_AElevator, AElevator::StaticClass, TEXT("AElevator"), &Z_Registration_Info_UClass_AElevator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AElevator), 4021230652U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_1694771258(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_3150094780(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
