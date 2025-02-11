@@ -324,10 +324,10 @@ AElevator::~AElevator() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AElevator, AElevator::StaticClass, TEXT("AElevator"), &Z_Registration_Info_UClass_AElevator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AElevator), 4021230652U) },
+		{ Z_Construct_UClass_AElevator, AElevator::StaticClass, TEXT("AElevator"), &Z_Registration_Info_UClass_AElevator, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AElevator), 3496139749U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_3150094780(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_4260570711(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Elevator_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

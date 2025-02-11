@@ -162,10 +162,10 @@ AJumpyCharacter::~AJumpyCharacter() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AJumpyCharacter, AJumpyCharacter::StaticClass, TEXT("AJumpyCharacter"), &Z_Registration_Info_UClass_AJumpyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AJumpyCharacter), 653291004U) },
+		{ Z_Construct_UClass_AJumpyCharacter, AJumpyCharacter::StaticClass, TEXT("AJumpyCharacter"), &Z_Registration_Info_UClass_AJumpyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AJumpyCharacter), 1769045716U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_2083615970(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_1401313858(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_JumpyCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

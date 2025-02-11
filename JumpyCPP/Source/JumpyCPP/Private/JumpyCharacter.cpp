@@ -121,13 +121,15 @@ void AJumpyCharacter::RunFast(const FInputActionValue& Value)
 	{
 		originalSpeed = GetCharacterMovement()->MaxWalkSpeed;
 		GetCharacterMovement()->MaxWalkSpeed = 1500;
-		//UE_LOG(LogTemp, Warning, TEXT("Run Faster: %f"), GetCharacterMovement()->MaxWalkSpeed);
+		UE_LOG(LogTemp, Warning, TEXT("Run Faster: %f"), GetCharacterMovement()->MaxWalkSpeed);
 	}
 	else 
 	{
 		GetCharacterMovement()->MaxWalkSpeed = originalSpeed;
-		//UE_LOG(LogTemp, Warning, TEXT("Run Faster Original: %f"), GetCharacterMovement()->MaxWalkSpeed);
+		UE_LOG(LogTemp, Warning, TEXT("Run Faster Original: %f"), GetCharacterMovement()->MaxWalkSpeed);
 	}
+
+	UE_LOG(LogTemp, Warning, TEXT("RCValue: %s"), RCValue ? TEXT("true") : TEXT("false"));
 }
 
 // Called every frame
@@ -156,10 +158,9 @@ void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 		EnhancedInputComponent->BindAction(IAJumpAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Jumping);
 
-		EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Started, this, &AJumpyCharacter::RunFast);
+		//EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Started, this, &AJumpyCharacter::RunFast);
 
-		EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Completed, this, &AJumpyCharacter::RunFast);
-
+		//EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Completed, this, &AJumpyCharacter::RunFast);
 	}
 }
 

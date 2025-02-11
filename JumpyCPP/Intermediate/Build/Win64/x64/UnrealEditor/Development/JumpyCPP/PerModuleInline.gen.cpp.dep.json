@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpycpp\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\jumpycppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpycpp\\definitions.jumpycpp.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
