@@ -10,6 +10,8 @@
 #include "InputMappingContext.h"
 #include "Blueprint/UserWidget.h"
 #include "JumpyUI.h"
+#include "EnhancedInputSubsystems.h"
+#include "EnhancedInputComponent.h"
 #include "JumpyCharacter.generated.h"
 
 UCLASS()

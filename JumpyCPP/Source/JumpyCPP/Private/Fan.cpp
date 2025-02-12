@@ -1,6 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Fan.h"
 
 // Sets default values
@@ -21,7 +20,7 @@ AFan::AFan()
 	FanGrating->SetupAttachment(Frame);
 	Box->SetupAttachment(Frame);
 	ForceDirection->SetupAttachment(Box);
-	Wind->SetupAttachment(Frame); 
+	Wind->SetupAttachment(Frame);
 }
 
 // Called when the game starts or when spawned
