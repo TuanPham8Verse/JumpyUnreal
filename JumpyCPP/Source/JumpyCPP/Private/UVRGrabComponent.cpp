@@ -14,21 +14,62 @@ UUVRGrabComponent::UUVRGrabComponent()
 }
 
 
-// Called when the game starts
 void UUVRGrabComponent::BeginPlay()
 {
-	Super::BeginPlay();
-
-	// ...
-	
+    Super::BeginPlay();
+    FindPhysicsHandle();
 }
 
-
-// Called every frame
-void UUVRGrabComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void UUVRGrabComponent::FindPhysicsHandle()
 {
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+    PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+}
 
-	// ...
+FHitResult UUVRGrabComponent::GetFirstPhysicsBodyInReach()
+{
+    FVector PlayerViewPointLocation;
+    FRotator PlayerViewPointRotation;
+
+    GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
+    FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * 200.f;
+
+    FHitResult Hit;
+    FCollisionQueryParams TraceParams(FName(TEXT("")), false, GetOwner());
+    GetWorld()->LineTraceSingleByObjectType(
+        Hit,
+        PlayerViewPointLocation,
+        LineTraceEnd,
+        FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+        TraceParams
+    );
+
+    return Hit;
+}
+
+void UUVRGrabComponent::Grab()
+{
+    FHitResult HitResult = GetFirstPhysicsBodyInReach();
+    if (HitResult.GetActor())
+    {
+        GrabbedComponent = HitResult.GetComponent();
+        if (PhysicsHandle)
+        {
+            PhysicsHandle->GrabComponentAtLocationWithRotation(
+                GrabbedComponent,
+                NAME_None,
+                GrabbedComponent->GetComponentLocation(),
+                GrabbedComponent->GetComponentRotation()
+            );
+        }
+    }
+}
+
+void UUVRGrabComponent::Release()
+{
+    if (PhysicsHandle)
+    {
+        PhysicsHandle->ReleaseComponent();
+    }
+    GrabbedComponent = nullptr;
 }
 
