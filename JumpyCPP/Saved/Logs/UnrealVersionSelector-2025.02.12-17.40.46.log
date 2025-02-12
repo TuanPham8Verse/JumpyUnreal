@@ -1,0 +1,102 @@
+Log started at 02/12/2025 17:40:46 (2025-02-12T10:40:46Z)
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\Tuan\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\Tuan\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\Tuan\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Log file: D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Saved\Logs\UnrealVersionSelector-2025.02.12-17.40.46.log
+
+Setting temp directory to 'C:\Users\Tuan\AppData\Local\Temp\UnrealBuildTool\6e23c306'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+        Registering build platform: Android - buildable: False
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.18362.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.26100.0, Version_AutoSdk=10.0.19041.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Log file: C:\Users\Tuan\AppData\Local\UnrealBuildTool\Log_GPF.txt
+Deleting old log file: C:\Users\Tuan\AppData\Local\UnrealBuildTool\Log_GPF-backup-2025.01.21-03.10.42.txt
+Resolved project argument D:/Projects/Git/Unreal/JumpyUnreal/JumpyCPP/JumpyCPP.uproject to D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\JumpyCPP.uproject
+Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
+Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
+Skipping project file generator registration for IOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for Linux
+Skipping project file generator registration for Linux due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for LinuxArm64
+Skipping project file generator registration for LinuxArm64 due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.MacProjectGenerator for Mac
+Skipping project file generator registration for Mac due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.TVOSProjectGenerator for TVOS
+Skipping project file generator registration for TVOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
+Registering project generator UnrealBuildTool.VisionOSProjectGenerator for VisionOS
+Skipping project file generator registration for VisionOS due to no valid BuildPlatform.
+
+---   SDK INFO START   ---
+
+Some Platforms were skipped due to invalid SDK setup: Android.
+See the log file for detailed information
+
+---   SDK INFO END   ---
+
+
+Generating VisualStudio project files:
+Discovering modules, targets and source code for project...
+Found VisualStudio2022 installation: C:\Program Files\Microsoft Visual Studio\2022\Community (Product=Microsoft.VisualStudio.Product.Community, Version=17.12.35707.178)
+Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130 (Family=14.38.33130, FamilyRank=0, Version=14.38.33144, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.38.33130)
+Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433 (Family=14.42.34433, FamilyRank=5, Version=14.42.34436, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.42.34433)
+Detected supported platforms: Win64, Android
+Skipping C:\Program Files\Epic Games\UE_5.4\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Program Files\Epic Games\UE_5.4\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Generating target Editor for D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Game for D:\Projects\Git\Unreal\JumpyUnreal\JumpyCPP\Intermediate\ProjectFiles\UE5.vcxproj
+Total execution time: 1.09 seconds
+Unhandled exception: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, IReadOnlyList`1 BaseDirs, IReadOnlyList`1 Plugins, IReadOnlyDictionary`2 ModuleFileToContext, IReadOnlyList`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, Boolean bForceCompile, RulesAssembly Parent, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 198
+   at UnrealBuildTool.RulesCompiler.<>c__DisplayClass9_0.<CreateProjectRulesAssembly>b__0(FileReference _) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 332
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile, Boolean bForceCompile, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 247
+   at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, List`1 EngineProjects, List`1 GameProjects, Dictionary`2 ProjectFileToUProjectFile, Dictionary`2 ProgramProjects, Dictionary`2 RulesAssemblies, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2774
+   at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments, Boolean bCacheDataForEditor, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 1038
+   at UnrealBuildTool.GenerateProjectFilesMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 65
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 660
+System.IO.FileNotFoundException: Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'
+System.IO.FileNotFoundException: Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'
+System.IO.FileNotFoundException: Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'
+Unhandled exception: ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+Could not load file or assembly 'UnrealBuildTool, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, IReadOnlyList`1 BaseDirs, IReadOnlyList`1 Plugins, IReadOnlyDictionary`2 ModuleFileToContext, IReadOnlyList`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, Boolean bForceCompile, RulesAssembly Parent, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:line 198
+   at UnrealBuildTool.RulesCompiler.<>c__DisplayClass9_0.<CreateProjectRulesAssembly>b__0(FileReference _) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 332
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile, Boolean bForceCompile, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:line 247
+   at UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, String[] Arguments, List`1 EngineProjects, List`1 GameProjects, Dictionary`2 ProjectFileToUProjectFile, Dictionary`2 ProgramProjects, Dictionary`2 RulesAssemblies, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2774
+   at UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments, Boolean bCacheDataForEditor, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 1038
+   at UnrealBuildTool.GenerateProjectFilesMode.ExecuteAsync(CommandLineArguments Arguments, ILogger Logger) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:line 65
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) in D:\build\++UE5\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:line 660
+WriteFileIfChanged() wrote 0 changed files of 2 requested writes.
+Timeline:
+
+[ 0.000]
+[ 0.000](+1.106) <unknown>
+[ 1.106]

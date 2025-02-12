@@ -301,10 +301,10 @@ AFan::~AFan() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFan, AFan::StaticClass, TEXT("AFan"), &Z_Registration_Info_UClass_AFan, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFan), 1070093364U) },
+		{ Z_Construct_UClass_AFan, AFan::StaticClass, TEXT("AFan"), &Z_Registration_Info_UClass_AFan, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFan), 3102883048U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_3628104555(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_2407402953(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

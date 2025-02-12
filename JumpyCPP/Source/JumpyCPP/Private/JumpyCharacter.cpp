@@ -156,9 +156,9 @@ void AJumpyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 		EnhancedInputComponent->BindAction(IAJumpAction, ETriggerEvent::Triggered, this, &AJumpyCharacter::Jumping);
 
-		EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Started, this, &AJumpyCharacter::RunFast);
+		//EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Started, this, &AJumpyCharacter::RunFast);
 
-		EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Completed, this, &AJumpyCharacter::RunFast);
+		//EnhancedInputComponent->BindAction(IARunFast, ETriggerEvent::Completed, this, &AJumpyCharacter::RunFast);
 
 	}
 }

@@ -126,10 +126,10 @@ AMovingPlatform::~AMovingPlatform() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_MovingPlatform_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 846587617U) },
+		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 3414807838U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_MovingPlatform_h_2130639898(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_MovingPlatform_h_234294479(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_MovingPlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_MovingPlatform_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
