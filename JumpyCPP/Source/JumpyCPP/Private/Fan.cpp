@@ -1,7 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "Fan.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 // Sets default values
 AFan::AFan()
@@ -31,6 +32,18 @@ void AFan::BeginPlay()
 
 	ACharacter* Character = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 	AJumpyCharacter* TempPlayer = Cast<AJumpyCharacter>(Character);
+
+	// Create GrabComponent instance using the TSubclassOf type
+	USceneComponent* GrabComponentInstance = NewObject<USceneComponent>(this, GrabComponent);
+	if (GrabComponentInstance)
+	{
+		GrabComponentInstance->SetupAttachment(Frame); // Gắn vào Frame
+		GrabComponentInstance->RegisterComponent(); // Đăng ký component
+
+
+
+		UE_LOG(LogTemp, Warning, TEXT("GrabComponent"));
+	}
 
 	if (TempPlayer)
 	{

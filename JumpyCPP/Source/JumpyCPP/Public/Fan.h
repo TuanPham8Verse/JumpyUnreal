@@ -22,6 +22,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, Category = "Component")
+	TSubclassOf<USceneComponent> GrabComponent;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -44,7 +47,7 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	UNiagaraComponent* Wind;
-
+	
 	UFUNCTION()
 	void OnPlayerEnter(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 

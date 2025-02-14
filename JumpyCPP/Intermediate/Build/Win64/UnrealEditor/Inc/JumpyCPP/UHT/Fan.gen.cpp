@@ -11,11 +11,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFan() {}
 
 // Begin Cross Module References
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 JUMPYCPP_API UClass* Z_Construct_UClass_AFan();
@@ -190,6 +192,10 @@ struct Z_Construct_UClass_AFan_Statics
 		{ "IncludePath", "Fan.h" },
 		{ "ModuleRelativePath", "Public/Fan.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GrabComponent_MetaData[] = {
+		{ "Category", "Component" },
+		{ "ModuleRelativePath", "Public/Fan.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Frame_MetaData[] = {
 		{ "Category", "Fan" },
 		{ "EditInline", "true" },
@@ -225,6 +231,7 @@ struct Z_Construct_UClass_AFan_Statics
 		{ "ModuleRelativePath", "Public/Fan.h" },
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FClassPropertyParams NewProp_GrabComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Frame;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Fan;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FanGrating;
@@ -244,6 +251,7 @@ struct Z_Construct_UClass_AFan_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AFan_Statics::NewProp_GrabComponent = { "GrabComponent", nullptr, (EPropertyFlags)0x0014000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFan, GrabComponent), Z_Construct_UClass_UClass, Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GrabComponent_MetaData), NewProp_GrabComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFan_Statics::NewProp_Frame = { "Frame", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFan, Frame), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Frame_MetaData), NewProp_Frame_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFan_Statics::NewProp_Fan = { "Fan", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFan, Fan), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Fan_MetaData), NewProp_Fan_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFan_Statics::NewProp_FanGrating = { "FanGrating", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFan, FanGrating), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FanGrating_MetaData), NewProp_FanGrating_MetaData) };
@@ -252,6 +260,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFan_Statics::
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFan_Statics::NewProp_Wind = { "Wind", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFan, Wind), Z_Construct_UClass_UNiagaraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Wind_MetaData), NewProp_Wind_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFan_Statics::NewProp_Power = { "Power", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFan, Power), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Power_MetaData), NewProp_Power_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFan_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFan_Statics::NewProp_GrabComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFan_Statics::NewProp_Frame,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFan_Statics::NewProp_Fan,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFan_Statics::NewProp_FanGrating,
@@ -301,10 +310,10 @@ AFan::~AFan() {}
 struct Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFan, AFan::StaticClass, TEXT("AFan"), &Z_Registration_Info_UClass_AFan, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFan), 3102883048U) },
+		{ Z_Construct_UClass_AFan, AFan::StaticClass, TEXT("AFan"), &Z_Registration_Info_UClass_AFan, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFan), 3551738618U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_2407402953(TEXT("/Script/JumpyCPP"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_598553961(TEXT("/Script/JumpyCPP"),
 	Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_JumpyCPP_Source_JumpyCPP_Public_Fan_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

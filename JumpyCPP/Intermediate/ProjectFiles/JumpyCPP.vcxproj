@@ -29,6 +29,10 @@
       <Configuration>Win64_arm64ec_DebugGame_Editor</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_DebugGame|x64">
+      <Configuration>Android_arm64_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Development|x64">
       <Configuration>Development</Configuration>
       <Platform>x64</Platform>
@@ -53,6 +57,10 @@
       <Configuration>Win64_arm64ec_Development_Editor</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Development|x64">
+      <Configuration>Android_arm64_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Shipping|x64">
       <Configuration>Shipping</Configuration>
       <Platform>x64</Platform>
@@ -63,6 +71,10 @@
     </ProjectConfiguration>
     <ProjectConfiguration Include="Win64_arm64ec_Shipping|x64">
       <Configuration>Win64_arm64ec_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_arm64_Shipping|x64">
+      <Configuration>Android_arm64_Shipping</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
@@ -146,6 +158,17 @@
       <NMakeCompileFileCommandLine>$(BuildBatchScript) JumpyCPPEditor Win64 DebugGame -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
     </NMakeCompile>
   </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_DebugGame|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) JumpyCPP Android DebugGame -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) JumpyCPP Android DebugGame -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) JumpyCPP Android DebugGame -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\JumpyCPP-Android-DebugGame.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_DebugGame|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) JumpyCPP Android DebugGame -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
     <NMakeBuildCommandLine>$(BuildBatchScript) JumpyCPP Win64 Development -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>$(RebuildBatchScript) JumpyCPP Win64 Development -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
@@ -212,6 +235,17 @@
       <NMakeCompileFileCommandLine>$(BuildBatchScript) JumpyCPPEditor Win64 Development -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
     </NMakeCompile>
   </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Development|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) JumpyCPP Android Development -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) JumpyCPP Android Development -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) JumpyCPP Android Development -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\JumpyCPP.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Development|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) JumpyCPP Android Development -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
     <NMakeBuildCommandLine>$(BuildBatchScript) JumpyCPP Win64 Shipping -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>$(RebuildBatchScript) JumpyCPP Win64 Shipping -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=x64</NMakeReBuildCommandLine>
@@ -243,6 +277,17 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win64_arm64ec_Shipping|x64'">
     <NMakeCompile>
       <NMakeCompileFileCommandLine>$(BuildBatchScript) JumpyCPP Win64 Shipping -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64ec -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
+    </NMakeCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Shipping|x64'">
+    <NMakeBuildCommandLine>$(BuildBatchScript) JumpyCPP Android Shipping -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(RebuildBatchScript) JumpyCPP Android Shipping -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>$(CleanBatchScript) JumpyCPP Android Shipping -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\JumpyCPP-Android-Shipping.so</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Android_arm64_Shipping|x64'">
+    <NMakeCompile>
+      <NMakeCompileFileCommandLine>$(BuildBatchScript) JumpyCPP Android Shipping -Project="$(SolutionDir)JumpyCPP.uproject" -WaitMutex -FromMsBuild -architecture=arm64 -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
     </NMakeCompile>
   </ItemDefinitionGroup>
   <PropertyGroup>
@@ -285,6 +330,9 @@
     <ClCompile Include="..\..\Source\JumpyCPP\Private\MovingPlatform.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\JumpyCPP\Private\Stomper.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\JumpyCPP\Public\Elevator.h">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -304,6 +352,9 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\JumpyCPP\Public\MovingPlatform.h">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\JumpyCPP\Public\Stomper.h">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemGroup>

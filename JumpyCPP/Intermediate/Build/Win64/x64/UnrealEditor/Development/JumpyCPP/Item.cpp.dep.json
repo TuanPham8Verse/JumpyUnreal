@@ -6,6 +6,12 @@
         "PCH": "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\jumpycppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_4.h.pch",
         "Includes": [
             "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\jumpycpp\\definitions.jumpycpp.h",
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\source\\jumpycpp\\public\\item.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\item.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
@@ -97,13 +103,7 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\slate\\uht\\sprogressbar.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\progressbar.generated.h",
             "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\jumpyui.generated.h",
-            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\jumpycharacter.generated.h",
-            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\source\\jumpycpp\\public\\item.h",
-            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
-            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
-            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
-            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
-            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\item.generated.h"
+            "d:\\projects\\git\\unreal\\jumpyunreal\\jumpycpp\\intermediate\\build\\win64\\unrealeditor\\inc\\jumpycpp\\uht\\jumpycharacter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
