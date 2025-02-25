@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JumpyCPPModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79e917956e3f8c721bfd22b116a5ccd594baab88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34412189771e004301666d79f8ee564c7bfb913d")]
 [assembly: System.Reflection.AssemblyProductAttribute("JumpyCPPModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JumpyCPPModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
